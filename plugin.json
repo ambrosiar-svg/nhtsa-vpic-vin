@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "nhtsa-vpic-vin",
+  "version": "0.1.0",
+  "description": "Decode vehicle VINs via the public NHTSA vPIC DecodeVinValues API for Diag Desk diagnostics, shop ROs, and Ambrosia's Automotive workflows. Returns a compact VinDecode object (year/make/model/trim and related fields) — never invents API data.",
+  "author": {
+    "name": "Ryan Ambrosia / Ambrosia's Automotive"
+  },
+  "keywords": [
+    "vin",
+    "nhtsa",
+    "vpic",
+    "automotive",
+    "diag-desk",
+    "vehicle-identification"
+  ],
+  "license": "MIT"
+}

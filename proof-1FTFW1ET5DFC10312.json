@@ -1,0 +1,22 @@
+{
+  "vin": "1FTFW1ET5DFC10312",
+  "year": 2013,
+  "make": "FORD",
+  "model": "F-150",
+  "bodyClass": "Pickup",
+  "driveType": "4WD/4-Wheel Drive/4x4",
+  "fuelType": "Gasoline",
+  "plantCity": "DEARBORN",
+  "plantState": "MICHIGAN",
+  "plantCountry": "UNITED STATES (USA)",
+  "errorCode": "1",
+  "errorText": "1 - Check Digit (9th position) does not calculate properly",
+  "extras": {
+    "VehicleType": "TRUCK",
+    "EngineCylinders": "6",
+    "DisplacementL": "3.5",
+    "GVWR": "Class 2F: 7,001 - 8,000 lb (3,175 - 3,629 kg)",
+    "Manufacturer": "FORD MOTOR COMPANY",
+    "ManufacturerId": "976"
+  }
+}

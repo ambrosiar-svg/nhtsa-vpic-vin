@@ -1,0 +1,22 @@
+{
+  "vin": "5YJ3E1EA1KF131548",
+  "year": 2019,
+  "make": "TESLA",
+  "model": "Model 3",
+  "bodyClass": "Sedan/Saloon",
+  "fuelType": "Electric",
+  "plantCity": "FREMONT",
+  "plantState": "CALIFORNIA",
+  "plantCountry": "UNITED STATES (USA)",
+  "errorCode": "1",
+  "errorText": "1 - Check Digit (9th position) does not calculate properly",
+  "extras": {
+    "VehicleType": "PASSENGER CAR",
+    "Doors": "4",
+    "TransmissionStyle": "Automatic",
+    "ElectrificationLevel": "BEV (Battery Electric Vehicle)",
+    "GVWR": "Class 1C: 4,001 - 5,000 lb (1,814 - 2,268 kg)",
+    "Manufacturer": "TESLA, INC.",
+    "ManufacturerId": "955"
+  }
+}

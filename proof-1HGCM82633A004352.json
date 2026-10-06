@@ -1,0 +1,25 @@
+{
+  "vin": "1HGCM82633A004352",
+  "year": 2003,
+  "make": "HONDA",
+  "model": "Accord",
+  "trim": "EX-V6",
+  "bodyClass": "Coupe",
+  "fuelType": "Gasoline",
+  "plantCity": "MARYSVILLE",
+  "plantState": "OHIO",
+  "plantCountry": "UNITED STATES (USA)",
+  "errorCode": "0",
+  "errorText": "0 - VIN decoded clean. Check Digit (9th position) is correct",
+  "extras": {
+    "VehicleType": "PASSENGER CAR",
+    "Doors": "2",
+    "EngineCylinders": "6",
+    "DisplacementL": "2.998832712",
+    "EngineModel": "J30A4",
+    "TransmissionStyle": "Automatic",
+    "GVWR": "Class 1C: 4,001 - 5,000 lb (1,814 - 2,268 kg)",
+    "Manufacturer": "AMERICAN HONDA MOTOR CO., INC.",
+    "ManufacturerId": "988"
+  }
+}
