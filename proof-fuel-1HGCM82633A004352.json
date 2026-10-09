@@ -1,0 +1,119 @@
+{
+  "source": "https://www.fueleconomy.gov/feg/ws/ (EPA/DOE, public, no auth)",
+  "assumptions": "EPA annual fuel cost is based on 15,000 miles/year, 55% city / 45% highway driving, and the fuel prices FuelEconomy.gov currently uses (fuelPricesUsed, $/gal or $/kWh for electric). youSaveSpend5yr compares 5 years of fuel cost to the EPA average new vehicle; positive = save, negative = spend more.",
+  "fuelPricesUsed": {
+    "cng": "3.08",
+    "diesel": "6.38",
+    "e85": "3.31",
+    "electric": "0.15",
+    "lpg": "3.59",
+    "midgrade": "5.07",
+    "premium": "5.48",
+    "regular": "4.47"
+  },
+  "costToOwnNote": "Only EPA fuel-cost figures are reported. Full cost-to-own (depreciation, insurance, maintenance, repairs) is NOT available from this source.",
+  "query": {
+    "vin": "1HGCM82633A004352",
+    "year": 2003,
+    "make": "HONDA",
+    "model": "Accord"
+  },
+  "epaMake": "Honda",
+  "optionCount": 4,
+  "options": [
+    {
+      "epaId": 18655,
+      "year": 2003,
+      "make": "Honda",
+      "model": "Accord",
+      "baseModel": "Accord",
+      "vehicleClass": "Midsize Cars",
+      "drive": "Front-Wheel Drive",
+      "transmission": "Automatic 5-spd",
+      "engine": "4 cyl, 2.4 L",
+      "fuelType": "Regular",
+      "fuelType1": "Regular Gasoline",
+      "mpg": {
+        "city": 21,
+        "highway": 31,
+        "combined": 25
+      },
+      "annualFuelCostUSD": 2700,
+      "youSaveSpend5yrUSD": -1500,
+      "co2TailpipeGramsPerMile": 355.48,
+      "option": "Auto 5-spd, 4 cyl, 2.4 L",
+      "consistentWithVinDecode": false
+    },
+    {
+      "epaId": 18657,
+      "year": 2003,
+      "make": "Honda",
+      "model": "Accord",
+      "baseModel": "Accord",
+      "vehicleClass": "Midsize Cars",
+      "drive": "Front-Wheel Drive",
+      "transmission": "Automatic 5-spd",
+      "engine": "6 cyl, 3.0 L",
+      "fuelType": "Regular",
+      "fuelType1": "Regular Gasoline",
+      "mpg": {
+        "city": 19,
+        "highway": 27,
+        "combined": 22
+      },
+      "annualFuelCostUSD": 3050,
+      "youSaveSpend5yrUSD": -3250,
+      "co2TailpipeGramsPerMile": 403.95454545454544,
+      "option": "Auto 5-spd, 6 cyl, 3.0 L",
+      "consistentWithVinDecode": true
+    },
+    {
+      "epaId": 18656,
+      "year": 2003,
+      "make": "Honda",
+      "model": "Accord",
+      "baseModel": "Accord",
+      "vehicleClass": "Midsize Cars",
+      "drive": "Front-Wheel Drive",
+      "transmission": "Manual 5-spd",
+      "engine": "4 cyl, 2.4 L",
+      "fuelType": "Regular",
+      "fuelType1": "Regular Gasoline",
+      "mpg": {
+        "city": 23,
+        "highway": 31,
+        "combined": 26
+      },
+      "annualFuelCostUSD": 2600,
+      "youSaveSpend5yrUSD": -1000,
+      "co2TailpipeGramsPerMile": 341.8076923076923,
+      "option": "Man 5-spd, 4 cyl, 2.4 L",
+      "consistentWithVinDecode": false
+    },
+    {
+      "epaId": 18658,
+      "year": 2003,
+      "make": "Honda",
+      "model": "Accord",
+      "baseModel": "Accord",
+      "vehicleClass": "Midsize Cars",
+      "drive": "Front-Wheel Drive",
+      "transmission": "Manual 6-spd",
+      "engine": "6 cyl, 3.0 L",
+      "fuelType": "Regular",
+      "fuelType1": "Regular Gasoline",
+      "mpg": {
+        "city": 18,
+        "highway": 27,
+        "combined": 21
+      },
+      "annualFuelCostUSD": 3200,
+      "youSaveSpend5yrUSD": -4000,
+      "co2TailpipeGramsPerMile": 423.1904761904762,
+      "option": "Man 6-spd, 6 cyl, 3.0 L",
+      "consistentWithVinDecode": true
+    }
+  ],
+  "selected": null,
+  "note": "EPA lists 4 options for this vehicle and the VIN does not identify which one, so none was picked. Ask which trim/engine/drive it is, then call again with option=<epaId>. consistentWithVinDecode compares only engine cylinders/displacement/drive that vPIC decoded; it is a hint, not a match."
+}

@@ -1,0 +1,238 @@
+{
+  "vin": "5YJ3E1EA1KF131548",
+  "vehicle": {
+    "year": 2019,
+    "make": "TESLA",
+    "model": "Model 3",
+    "bodyClass": "Sedan/Saloon",
+    "fuelType": "Electric"
+  },
+  "decodeWarning": "1 - Check Digit (9th position) does not calculate properly",
+  "mileage": 120000,
+  "mileageNote": "Mileage is echoed for context only. No free source here provides a factory maintenance schedule, so nothing is derived from mileage.",
+  "recalls": {
+    "count": 22,
+    "top": [
+      {
+        "campaignNumber": "26V507000",
+        "date": "2026-08-05",
+        "component": "EXTERIOR LIGHTING:HEADLIGHTS",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2017-2023 Model 3 and 2020-2023 Model Y vehicles. The headlight low beams may be too bright and exceed the maximum light output. As such, these vehicles fail t\u2026"
+      },
+      {
+        "campaignNumber": "24V935000",
+        "date": "2024-12-17",
+        "component": "TIRES:PRESSURE MONITORING AND REGULATING SYSTEMS",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2024 Cybertruck, 2017-2025 Model 3, and 2020-2025 Model Y vehicles.  The tire pressure monitoring system (TPMS) warning light may not remain illuminated betwee\u2026"
+      },
+      {
+        "campaignNumber": "24V376000",
+        "date": "2024-05-28",
+        "component": "SEAT BELTS:FRONT:WARNING LIGHT/DEVICES",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2012-2024 Model S, 2015-2024 Model X, 2017-2023 Model 3, and 2020-2023 Model Y vehicles.  In the event of an unbelted driver, the seat belt warning light and a\u2026"
+      },
+      {
+        "campaignNumber": "24V153000",
+        "date": "2024-02-27",
+        "component": "FORWARD COLLISION AVOIDANCE: WARNINGS:EXTERNAL/PEDESTRIAN ALERT",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2013, 2018-2021 Model S, 2020-2021 Model X, 2018-2022 Model 3, and 2020-2022 Model Y vehicles.  A factory reset muted the Pedestrian Warning System (PWS) sound\u2026"
+      },
+      {
+        "campaignNumber": "24V051000",
+        "date": "2024-01-30",
+        "component": "ELECTRICAL SYSTEM: INSTRUMENT CLUSTER/PANEL",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2012-2023 Model S, 2016-2024 Model X, 2017-2023 Model 3, 2019-2024 Model Y, and 2024 Cybertruck vehicles.  An incorrect font size is displayed on the instrumen\u2026"
+      }
+    ],
+    "caveat": "These are recalls NHTSA lists for this model year/make/model, NOT confirmed open on this specific vehicle. NHTSA has no public no-auth VIN-specific open-recall API. Check nhtsa.gov/recalls with the VIN or the dealer to confirm if it is open on this specific vehicle."
+  },
+  "complaints": {
+    "count": 616,
+    "crashes": 60,
+    "fires": 5,
+    "injuries": 30,
+    "deaths": 4,
+    "topComponents": [
+      {
+        "component": "FORWARD COLLISION AVOIDANCE",
+        "count": 169
+      },
+      {
+        "component": "ELECTRICAL SYSTEM",
+        "count": 91
+      },
+      {
+        "component": "AIR BAGS",
+        "count": 86
+      },
+      {
+        "component": "SUSPENSION",
+        "count": 82
+      },
+      {
+        "component": "UNKNOWN OR OTHER",
+        "count": 78
+      }
+    ]
+  },
+  "whatToInspect": [
+    {
+      "area": "FORWARD COLLISION AVOIDANCE",
+      "why": [
+        "169 NHTSA complaints list FORWARD COLLISION AVOIDANCE",
+        "recall 24V153000 (FORWARD COLLISION AVOIDANCE: WARNINGS:EXTERNAL/PEDESTRIAN ALERT)",
+        "recall 21V846000 (FORWARD COLLISION AVOIDANCE: SENSING SYSTEM: CAMERA)"
+      ],
+      "steps": [
+        "Test drive on open road: watch for false automatic braking / phantom alerts.",
+        "Check camera/radar area for damage or misalignment; scan ADAS module for codes."
+      ]
+    },
+    {
+      "area": "ELECTRICAL SYSTEM",
+      "why": [
+        "91 NHTSA complaints list ELECTRICAL SYSTEM",
+        "recall 24V051000 (ELECTRICAL SYSTEM: INSTRUMENT CLUSTER/PANEL)",
+        "recall 23V838000 (ELECTRICAL SYSTEM:ADAS:AUTONOMOUS/SELF DRIVING:SOFTWARE)",
+        "recall 22V263000 (ELECTRICAL SYSTEM: INSTRUMENT CLUSTER/PANEL)",
+        "recall 22V235000 (ELECTRICAL SYSTEM:SOFTWARE)",
+        "recall 22V063000 (ELECTRICAL SYSTEM:SOFTWARE)",
+        "recall 22V045000 (ELECTRICAL SYSTEM:SOFTWARE)",
+        "recall 22V037000 (ELECTRICAL SYSTEM:ADAS:AUTONOMOUS/SELF DRIVING:SOFTWARE)",
+        "recall 21V00D000 (ELECTRICAL SYSTEM:WIRING: REAR COMPARTMENT/TRUNK)"
+      ],
+      "steps": [
+        "Battery/charging-system test; scan all modules for codes (not just engine).",
+        "Check every light, gauge, power window/lock, infotainment and charging ports.",
+        "Look for aftermarket wiring, corrosion at grounds/connectors, water intrusion."
+      ]
+    },
+    {
+      "area": "AIR BAGS",
+      "why": [
+        "86 NHTSA complaints list AIR BAGS"
+      ],
+      "steps": [
+        "Confirm SRS/airbag light comes on at key-on and then goes out.",
+        "Scan SRS module for codes; ask for proof any airbag recall was completed (check VIN at nhtsa.gov/recalls)."
+      ]
+    },
+    {
+      "area": "SUSPENSION",
+      "why": [
+        "82 NHTSA complaints list SUSPENSION",
+        "recall 23V235000 (SUSPENSION:FRONT)",
+        "recall 21V835000 (SUSPENSION:CRITICAL FASTENERS)"
+      ],
+      "steps": [
+        "Inspect struts/shocks for leaks, bushings, ball joints, control arms; bounce test.",
+        "Test drive over bumps for clunks; check tire wear pattern for alignment issues."
+      ]
+    },
+    {
+      "area": "EXTERIOR LIGHTING",
+      "why": [
+        "recall 26V507000 (EXTERIOR LIGHTING:HEADLIGHTS)"
+      ],
+      "steps": [
+        "Check all exterior lamps: headlights low/high, DRL, brake, turn, reverse; look for moisture in housings."
+      ]
+    },
+    {
+      "area": "TIRES",
+      "why": [
+        "recall 24V935000 (TIRES:PRESSURE MONITORING AND REGULATING SYSTEMS)"
+      ],
+      "steps": [
+        "Check tread depth, DOT date codes, uneven wear, sidewall damage; confirm TPMS works."
+      ]
+    },
+    {
+      "area": "SEAT BELTS",
+      "why": [
+        "recall 24V376000 (SEAT BELTS:FRONT:WARNING LIGHT/DEVICES)",
+        "recall 22V798000 (SEAT BELTS:REAR/OTHER:ANCHORAGE)",
+        "recall 21V389000 (SEAT BELTS)"
+      ],
+      "steps": [
+        "Check every belt latches, retracts, and locks on a sharp tug; check belt warning light."
+      ]
+    },
+    {
+      "area": "STEERING",
+      "why": [
+        "recall 23V085000 (STEERING:AUTOMATED/ADAPTIVE STEERING)"
+      ],
+      "steps": [
+        "Test drive: play, wander, noise when turning lock-to-lock, warning lights for EPS.",
+        "Inspect tie rods, rack boots, power steering fluid/leaks (if hydraulic); scan EPS module."
+      ]
+    },
+    {
+      "area": "VISIBILITY",
+      "why": [
+        "recall 22V702000 (VISIBILITY:POWER WINDOW DEVICES AND CONTROLS)"
+      ],
+      "steps": [
+        "Check wipers, washers, defrost, mirrors, and backup camera; inspect windshield."
+      ]
+    },
+    {
+      "area": "BACK OVER PREVENTION",
+      "why": [
+        "recall 22V169000 (BACK OVER PREVENTION:DISPLAY FUNCTION)"
+      ],
+      "steps": [
+        "Verify backup camera image, guidelines and rear sensors work."
+      ]
+    },
+    {
+      "area": "SERVICE BRAKES, HYDRAULIC",
+      "why": [
+        "recall 21V387000 (SERVICE BRAKES, HYDRAULIC:FOUNDATION COMPONENTS:DISC:CALIPER)"
+      ],
+      "steps": [
+        "Check brake fluid level/condition and for leaks at master cylinder, lines, calipers.",
+        "Test pedal feel (firm vs. sinking) with engine running and off."
+      ]
+    },
+    {
+      "area": "EQUIPMENT",
+      "why": [
+        "recall 19V719000 (EQUIPMENT:OTHER:LABELS)"
+      ],
+      "steps": [
+        "Check accessories and equipment listed in the complaints (e.g. trailer hitch, roof racks) for function and damage."
+      ]
+    }
+  ],
+  "unmappedAreas": {
+    "note": "Components seen in this vehicle's NHTSA data with no canned inspection steps; inspect these areas manually.",
+    "items": [
+      {
+        "area": "UNKNOWN OR OTHER",
+        "why": [
+          "78 NHTSA complaints list UNKNOWN OR OTHER"
+        ]
+      }
+    ]
+  },
+  "genericBaseline": {
+    "label": "GENERIC pre-purchase baseline (applies to any used car; not derived from this vehicle's data)",
+    "items": [
+      "Run the VIN at nhtsa.gov/recalls (or the OEM site) to confirm open recalls on THIS vehicle.",
+      "Get a vehicle history report (title brands, accidents, odometer).",
+      "Full-system scan of all modules; check readiness monitors.",
+      "Cold-start check and 15+ minute test drive (city and highway).",
+      "Lift inspection: leaks, frame/rust, suspension, exhaust, brakes, tires.",
+      "Check all fluids, belts, hoses; battery/charging test.",
+      "Verify odometer vs. history/service records; confirm title and VIN plates match."
+    ]
+  },
+  "sources": [
+    "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues",
+    "https://api.nhtsa.gov/recalls/recallsByVehicle",
+    "https://api.nhtsa.gov/complaints/complaintsByVehicle"
+  ],
+  "note": "Complaints are unverified owner reports for the model year/make/model, not confirmed defects on this vehicle. These are recalls NHTSA lists for this model year/make/model, NOT confirmed open on this specific vehicle. NHTSA has no public no-auth VIN-specific open-recall API. Check nhtsa.gov/recalls with the VIN or the dealer to confirm if it is open on this specific vehicle."
+}

@@ -1,0 +1,37 @@
+{
+  "source": "https://www.fueleconomy.gov/feg/ws/ (EPA/DOE, public, no auth)",
+  "assumptions": "EPA annual fuel cost is based on 15,000 miles/year, 55% city / 45% highway driving, and the fuel prices FuelEconomy.gov currently uses (fuelPricesUsed, $/gal or $/kWh for electric). youSaveSpend5yr compares 5 years of fuel cost to the EPA average new vehicle; positive = save, negative = spend more.",
+  "fuelPricesUsed": {
+    "cng": "3.08",
+    "diesel": "6.38",
+    "e85": "3.31",
+    "electric": "0.15",
+    "lpg": "3.59",
+    "midgrade": "5.07",
+    "premium": "5.48",
+    "regular": "4.47"
+  },
+  "costToOwnNote": "Only EPA fuel-cost figures are reported. Full cost-to-own (depreciation, insurance, maintenance, repairs) is NOT available from this source.",
+  "selected": {
+    "epaId": 18657,
+    "year": 2003,
+    "make": "Honda",
+    "model": "Accord",
+    "baseModel": "Accord",
+    "vehicleClass": "Midsize Cars",
+    "drive": "Front-Wheel Drive",
+    "transmission": "Automatic 5-spd",
+    "engine": "6 cyl, 3.0 L",
+    "fuelType": "Regular",
+    "fuelType1": "Regular Gasoline",
+    "mpg": {
+      "city": 19,
+      "highway": 27,
+      "combined": 22
+    },
+    "annualFuelCostUSD": 3050,
+    "youSaveSpend5yrUSD": -3250,
+    "co2TailpipeGramsPerMile": 403.95454545454544
+  },
+  "selectedBy": "explicit EPA vehicle id (option)"
+}

@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "nhtsa-vpic-vin",
-  "version": "0.2.0",
-  "description": "Decode VINs via the public NHTSA vPIC API and list NHTSA safety recalls (plus owner-complaint summaries) for a vehicle's year/make/model, for Diag Desk diagnostics, shop ROs, and Ambrosia's Automotive workflows. Recalls are year/make/model-level, not VIN-confirmed \u2014 check nhtsa.gov/recalls with the VIN to confirm. Never invents API data.",
+  "version": "0.3.0",
+  "description": "Decode VINs (NHTSA vPIC), list NHTSA recalls and owner-complaint summaries, run a used-car buyer's check (inspection list derived from the vehicle's own recall/complaint components), and pull EPA fueleconomy.gov MPG/MPGe, range, annual fuel cost, CO2 and 5-year save/spend \u2014 for Diag Desk, Side Lane, and Ambrosia's Automotive workflows. All free, no-auth public APIs. Recalls are year/make/model-level, not VIN-confirmed. Never invents API data.",
   "author": {
     "name": "Ryan Ambrosia / Ambrosia's Automotive"
   },
@@ -15,7 +15,14 @@
     "vehicle-identification",
     "recalls",
     "complaints",
-    "safety-recalls"
+    "safety-recalls",
+    "buyer-check",
+    "pre-purchase-inspection",
+    "used-car",
+    "fuel-economy",
+    "epa",
+    "mpg",
+    "fueleconomy-gov"
   ],
   "license": "MIT"
 }

@@ -126,3 +126,24 @@ nhtsa-vpic-vin-plugin/
 - Count of 3 recalls for the 2013 F-150 is what NHTSA's API returned for `F-150`; it was not cross-checked against the nhtsa.gov website.
 
 Local install re-synced to `~/.cursor/plugins/local/nhtsa-vpic-vin/`. Nothing pushed to GitHub or published.
+
+## v0.3.0 — buyer_check + fuel_economy (2026-10-09)
+
+Checks: `node --check server/index.js` OK; `plugin.json` and `mcp.json` validate against `schemas/*.schema.json` (jsonschema Draft 2020-12); `tools/list` → decode_vin, list_recalls, list_complaints, buyer_check, fuel_economy (`proof-tools-list.json`). All calls below are real live calls over stdio JSON-RPC.
+
+### buyer_check (`proof-buyer-<VIN>.json`, mileage 120000)
+
+- **1HGCM82633A004352** 2003 HONDA Accord EX-V6 coupe — recalls 24 (top: accelerator pedal, Takata frontal airbag inflators); complaints 2013 (POWER TRAIN 926, AIR BAGS 324, SERVICE BRAKES HYDRAULIC 146, ELECTRICAL 143, ENGINE AND ENGINE COOLING 95). Inspect areas: POWER TRAIN, AIR BAGS, SERVICE BRAKES HYDRAULIC, ELECTRICAL, ENGINE AND ENGINE COOLING, VEHICLE SPEED CONTROL, STEERING, EXTERIOR LIGHTING, VISIBILITY.
+- **5YJ3E1EA1KF131548** 2019 TESLA Model 3 — recalls 22; complaints 616 (FORWARD COLLISION AVOIDANCE 169, ELECTRICAL 91, AIR BAGS 86, SUSPENSION 82, UNKNOWN OR OTHER 78 → listed as unmapped). 12 inspect areas from complaints+recalls.
+- **1FTFW1ET5DFC10312** 2013 FORD F-150 4WD — recalls 3 (2× POWER TRAIN automatic transmission/TCM, SERVICE BRAKES HYDRAULIC fluid); complaints 2796 (POWER TRAIN 1212, ENGINE 531, SERVICE BRAKES 309, ELECTRICAL 306, VEHICLE SPEED CONTROL 275). Inspect: POWER TRAIN, ENGINE, SERVICE BRAKES, ELECTRICAL, VEHICLE SPEED CONTROL, SERVICE BRAKES HYDRAULIC.
+
+### fuel_economy (`proof-fuel-<VIN>.json`; EPA fuel prices at run: regular $4.47, premium $5.48, diesel $6.38, electric $0.15/kWh)
+
+- **Accord 2003:** 4 EPA options, none picked. V6 options flagged consistent with vPIC decode: Auto 5-spd 3.0L 19/27/22 mpg, $3,050/yr, 5-yr −$3,250; Man 6-spd 3.0L 18/27/21, $3,200/yr, −$4,000. (I4 auto 21/31/25, $2,700/yr.)
+- **Model 3 2019:** 6 EPA options, none picked (vPIC gives no drive/battery to hint). e.g. Long Range RWD 136/123/130 MPGe, 310 mi, $600/yr, +$9,000; Standard Range Plus 140/124/133 MPGe, 240 mi, $550/yr, +$9,250.
+- **F-150 2013:** 15 EPA options across F150 Pickup 2WD/4WD/FFV/Raptor; first 12 fetched, 3 listed as not fetched. Consistent with decode (4WD, 6 cyl 3.5L): 4WD 3.5L Turbo 15/21/17 mpg, $3,950/yr, 5-yr −$7,750, 519 g/mi CO2.
+- **option path:** `{option:"18657"}` → 2003 Accord V6 auto, selectedBy "explicit EPA vehicle id" (`proof-fuel-option-18657.json`).
+
+Observed: EPA returns `menuItem` as an object when only one option; `co2` is −1 for old vehicles (tool uses `co2TailpipeGpm`); `youSaveSpend` is relative to EPA's average new vehicle at current prices.
+
+Local install re-synced to `~/.cursor/plugins/local/nhtsa-vpic-vin/`. Nothing pushed to GitHub or published.

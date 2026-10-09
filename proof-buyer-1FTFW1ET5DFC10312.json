@@ -1,0 +1,153 @@
+{
+  "vin": "1FTFW1ET5DFC10312",
+  "vehicle": {
+    "year": 2013,
+    "make": "FORD",
+    "model": "F-150",
+    "bodyClass": "Pickup",
+    "driveType": "4WD/4-Wheel Drive/4x4",
+    "fuelType": "Gasoline"
+  },
+  "decodeWarning": "1 - Check Digit (9th position) does not calculate properly",
+  "mileage": 120000,
+  "mileageNote": "Mileage is echoed for context only. No free source here provides a factory maintenance schedule, so nothing is derived from mileage.",
+  "recalls": {
+    "count": 3,
+    "top": [
+      {
+        "campaignNumber": "19V433000",
+        "date": "2019-06-10",
+        "component": "POWER TRAIN:AUTOMATIC TRANSMISSION",
+        "summary": "Ford Motor Company (Ford) is recalling certain 2013 F-150 vehicles equipped with 5.0L or 6.2L gasoline engines, that previously had the powertrain control module (PCM) software reprogrammed under reca\u2026"
+      },
+      {
+        "campaignNumber": "19V075000",
+        "date": "2019-02-11",
+        "component": "POWER TRAIN:AUTOMATIC TRANSMISSION:CONTROL MODULE (TCM/PCM/TECM)",
+        "summary": "Ford Motor Company (Ford) is recalling certain 2011-2013 F-150 vehicles equipped with a 6-speed automatic transmission.  The transmission may unexpectedly downshift into first gear, regardless of vehi\u2026"
+      },
+      {
+        "campaignNumber": "16V345000",
+        "date": "2016-05-24",
+        "component": "SERVICE BRAKES, HYDRAULIC:FLUID",
+        "summary": "Ford Motor Company (Ford) is recalling certain model year 2013-2014 F-150 vehicles manufactured August 1, 2013, to August 31, 2014 equipped with 3.5L engines.  The master cylinder rear cup seal may ro\u2026"
+      }
+    ],
+    "caveat": "These are recalls NHTSA lists for this model year/make/model, NOT confirmed open on this specific vehicle. NHTSA has no public no-auth VIN-specific open-recall API. Check nhtsa.gov/recalls with the VIN or the dealer to confirm if it is open on this specific vehicle."
+  },
+  "complaints": {
+    "count": 2796,
+    "crashes": 74,
+    "fires": 31,
+    "injuries": 60,
+    "deaths": 1,
+    "topComponents": [
+      {
+        "component": "POWER TRAIN",
+        "count": 1212
+      },
+      {
+        "component": "ENGINE",
+        "count": 531
+      },
+      {
+        "component": "SERVICE BRAKES",
+        "count": 309
+      },
+      {
+        "component": "ELECTRICAL SYSTEM",
+        "count": 306
+      },
+      {
+        "component": "VEHICLE SPEED CONTROL",
+        "count": 275
+      }
+    ]
+  },
+  "whatToInspect": [
+    {
+      "area": "POWER TRAIN",
+      "why": [
+        "1212 NHTSA complaints list POWER TRAIN",
+        "recall 19V433000 (POWER TRAIN:AUTOMATIC TRANSMISSION)",
+        "recall 19V075000 (POWER TRAIN:AUTOMATIC TRANSMISSION:CONTROL MODULE (TCM/PCM/TECM))"
+      ],
+      "steps": [
+        "Test drive cold and hot: watch for harsh/late/flared shifts, slipping, unexpected downshifts or neutral.",
+        "Scan PCM/TCM for stored and pending codes (incl. transmission adaptives if supported).",
+        "Check transmission fluid level/condition where serviceable (burnt smell, dark, debris); look for leaks at pan/cooler lines."
+      ]
+    },
+    {
+      "area": "ENGINE",
+      "why": [
+        "531 NHTSA complaints list ENGINE"
+      ],
+      "steps": [
+        "Cold start: listen for ticks, knocks, timing-chain rattle; check for smoke at startup and under load.",
+        "Scan for engine codes and misfire counters; check readiness monitors (recently cleared codes?).",
+        "Look for oil/coolant leaks, oil condition, coolant in oil or oil in coolant."
+      ]
+    },
+    {
+      "area": "SERVICE BRAKES",
+      "why": [
+        "309 NHTSA complaints list SERVICE BRAKES"
+      ],
+      "steps": [
+        "Measure pad thickness and rotor condition; check brake fluid level/condition.",
+        "Test drive: pulsation, pulling, soft/long pedal, ABS warning light.",
+        "Scan ABS/brake module for codes; inspect lines and hoses for leaks/corrosion."
+      ]
+    },
+    {
+      "area": "ELECTRICAL SYSTEM",
+      "why": [
+        "306 NHTSA complaints list ELECTRICAL SYSTEM"
+      ],
+      "steps": [
+        "Battery/charging-system test; scan all modules for codes (not just engine).",
+        "Check every light, gauge, power window/lock, infotainment and charging ports.",
+        "Look for aftermarket wiring, corrosion at grounds/connectors, water intrusion."
+      ]
+    },
+    {
+      "area": "VEHICLE SPEED CONTROL",
+      "why": [
+        "275 NHTSA complaints list VEHICLE SPEED CONTROL"
+      ],
+      "steps": [
+        "Test cruise control and throttle response; check for stuck/unintended acceleration complaints on the test drive.",
+        "Scan for throttle/pedal-position codes."
+      ]
+    },
+    {
+      "area": "SERVICE BRAKES, HYDRAULIC",
+      "why": [
+        "recall 16V345000 (SERVICE BRAKES, HYDRAULIC:FLUID)"
+      ],
+      "steps": [
+        "Check brake fluid level/condition and for leaks at master cylinder, lines, calipers.",
+        "Test pedal feel (firm vs. sinking) with engine running and off."
+      ]
+    }
+  ],
+  "genericBaseline": {
+    "label": "GENERIC pre-purchase baseline (applies to any used car; not derived from this vehicle's data)",
+    "items": [
+      "Run the VIN at nhtsa.gov/recalls (or the OEM site) to confirm open recalls on THIS vehicle.",
+      "Get a vehicle history report (title brands, accidents, odometer).",
+      "Full-system scan of all modules; check readiness monitors.",
+      "Cold-start check and 15+ minute test drive (city and highway).",
+      "Lift inspection: leaks, frame/rust, suspension, exhaust, brakes, tires.",
+      "Check all fluids, belts, hoses; battery/charging test.",
+      "Verify odometer vs. history/service records; confirm title and VIN plates match."
+    ]
+  },
+  "sources": [
+    "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues",
+    "https://api.nhtsa.gov/recalls/recallsByVehicle",
+    "https://api.nhtsa.gov/complaints/complaintsByVehicle"
+  ],
+  "note": "Complaints are unverified owner reports for the model year/make/model, not confirmed defects on this vehicle. These are recalls NHTSA lists for this model year/make/model, NOT confirmed open on this specific vehicle. NHTSA has no public no-auth VIN-specific open-recall API. Check nhtsa.gov/recalls with the VIN or the dealer to confirm if it is open on this specific vehicle."
+}

@@ -1,0 +1,209 @@
+{
+  "vin": "1HGCM82633A004352",
+  "vehicle": {
+    "year": 2003,
+    "make": "HONDA",
+    "model": "Accord",
+    "trim": "EX-V6",
+    "bodyClass": "Coupe",
+    "fuelType": "Gasoline"
+  },
+  "mileage": 120000,
+  "mileageNote": "Mileage is echoed for context only. No free source here provides a factory maintenance schedule, so nothing is derived from mileage.",
+  "recalls": {
+    "count": 24,
+    "top": [
+      {
+        "campaignNumber": "19E068000",
+        "date": "2019-10-10",
+        "component": "VEHICLE SPEED CONTROL:ACCELERATOR PEDAL",
+        "summary": "Dorman Products, Inc.  (Dorman) is recalling certain Accelerator Pedal Assemblies part numbers 699-114 and 825-5029-1, sold as replacement parts for 2003-2006 Acura MDX, 2004-2008 Acura TL and TSX, 20\u2026"
+      },
+      {
+        "campaignNumber": "19V499000",
+        "date": "2019-06-27",
+        "component": "AIR BAGS:FRONTAL:DRIVER SIDE:INFLATOR MODULE",
+        "summary": "Honda (American Honda Motor Co.) is recalling certain 2003 Acura 3.2CL, 2002-2003 3.2TL, 2003-2006 MDX, 2001-2007 Honda Accord, 2001-2005 Civic, 2003-2005 Civic Hybrid, 2001-2005 Civic GX NGV, 2002-20\u2026"
+      },
+      {
+        "campaignNumber": "19V501000",
+        "date": "2019-06-27",
+        "component": "AIR BAGS:FRONTAL:PASSENGER SIDE:INFLATOR MODULE",
+        "summary": "Honda (American Honda Motor Co.) is recalling certain 2003-2006 Acura MDX, 2005-2012 RL, 2003-2007 Honda Accord, 2001-2005 Civic, 2003-2005 Civic Hybrid, 2001-2005 Civic GX NGV, 2002-2006 CR-V, 2003-2\u2026"
+      },
+      {
+        "campaignNumber": "19V182000",
+        "date": "2019-03-06",
+        "component": "AIR BAGS:FRONTAL:DRIVER SIDE:INFLATOR MODULE",
+        "summary": "Honda (American Honda Motor Co.) is recalling specific 2003 Acura 3.2CL, 2013-2016 ILX, 2013-2014 ILX Hybrid, 2003-2006 MDX, 2007-2016 RDX, 2002-2003 3.2TL, 2004-2006, and 2009-2014 TL, 2010-2013 ZDX \u2026"
+      },
+      {
+        "campaignNumber": "18V268000",
+        "date": "2018-04-26",
+        "component": "AIR BAGS:FRONTAL:PASSENGER SIDE:INFLATOR MODULE",
+        "summary": "Honda (American Honda Motor Co.) is recalling certain 2003-2012 Honda Accord and Pilot, 2010 Accord Crosstour, 2001-2011 Civic, 2002-2011 CR-V, 2003-2004, 2006-2008 and 2011 Element, 2007 and 2009-201\u2026"
+      }
+    ],
+    "caveat": "These are recalls NHTSA lists for this model year/make/model, NOT confirmed open on this specific vehicle. NHTSA has no public no-auth VIN-specific open-recall API. Check nhtsa.gov/recalls with the VIN or the dealer to confirm if it is open on this specific vehicle."
+  },
+  "complaints": {
+    "count": 2013,
+    "crashes": 158,
+    "fires": 19,
+    "injuries": 157,
+    "deaths": 1,
+    "topComponents": [
+      {
+        "component": "POWER TRAIN",
+        "count": 926
+      },
+      {
+        "component": "AIR BAGS",
+        "count": 324
+      },
+      {
+        "component": "SERVICE BRAKES, HYDRAULIC",
+        "count": 146
+      },
+      {
+        "component": "ELECTRICAL SYSTEM",
+        "count": 143
+      },
+      {
+        "component": "ENGINE AND ENGINE COOLING",
+        "count": 95
+      }
+    ]
+  },
+  "whatToInspect": [
+    {
+      "area": "POWER TRAIN",
+      "why": [
+        "926 NHTSA complaints list POWER TRAIN",
+        "recall 04V176000 (POWER TRAIN:AUTOMATIC TRANSMISSION)"
+      ],
+      "steps": [
+        "Test drive cold and hot: watch for harsh/late/flared shifts, slipping, unexpected downshifts or neutral.",
+        "Scan PCM/TCM for stored and pending codes (incl. transmission adaptives if supported).",
+        "Check transmission fluid level/condition where serviceable (burnt smell, dark, debris); look for leaks at pan/cooler lines."
+      ]
+    },
+    {
+      "area": "AIR BAGS",
+      "why": [
+        "324 NHTSA complaints list AIR BAGS",
+        "recall 19V499000 (AIR BAGS:FRONTAL:DRIVER SIDE:INFLATOR MODULE)",
+        "recall 19V501000 (AIR BAGS:FRONTAL:PASSENGER SIDE:INFLATOR MODULE)",
+        "recall 19V182000 (AIR BAGS:FRONTAL:DRIVER SIDE:INFLATOR MODULE)",
+        "recall 18V268000 (AIR BAGS:FRONTAL:PASSENGER SIDE:INFLATOR MODULE)",
+        "recall 17V220000 (AIR BAGS:FRONTAL:PASSENGER SIDE:INFLATOR MODULE)",
+        "recall 15V370000 (AIR BAGS:FRONTAL:PASSENGER SIDE:INFLATOR MODULE)",
+        "recall 15V320000 (AIR BAGS:FRONTAL:DRIVER SIDE:INFLATOR MODULE)",
+        "recall 14V700000 (AIR BAGS)",
+        "recall 14V353000 (AIR BAGS)"
+      ],
+      "steps": [
+        "Confirm SRS/airbag light comes on at key-on and then goes out.",
+        "Scan SRS module for codes; ask for proof any airbag recall was completed (check VIN at nhtsa.gov/recalls)."
+      ]
+    },
+    {
+      "area": "SERVICE BRAKES, HYDRAULIC",
+      "why": [
+        "146 NHTSA complaints list SERVICE BRAKES, HYDRAULIC"
+      ],
+      "steps": [
+        "Check brake fluid level/condition and for leaks at master cylinder, lines, calipers.",
+        "Test pedal feel (firm vs. sinking) with engine running and off."
+      ]
+    },
+    {
+      "area": "ELECTRICAL SYSTEM",
+      "why": [
+        "143 NHTSA complaints list ELECTRICAL SYSTEM",
+        "recall 10V364000 (ELECTRICAL SYSTEM:IGNITION)"
+      ],
+      "steps": [
+        "Battery/charging-system test; scan all modules for codes (not just engine).",
+        "Check every light, gauge, power window/lock, infotainment and charging ports.",
+        "Look for aftermarket wiring, corrosion at grounds/connectors, water intrusion."
+      ]
+    },
+    {
+      "area": "ENGINE AND ENGINE COOLING",
+      "why": [
+        "95 NHTSA complaints list ENGINE AND ENGINE COOLING"
+      ],
+      "steps": [
+        "Cold start and full warm-up: watch temp gauge, listen for abnormal noises.",
+        "Pressure-test cooling system; check for leaks at water pump, hoses, radiator.",
+        "Scan for engine codes; check oil/coolant cross-contamination."
+      ]
+    },
+    {
+      "area": "VEHICLE SPEED CONTROL",
+      "why": [
+        "recall 19E068000 (VEHICLE SPEED CONTROL:ACCELERATOR PEDAL)"
+      ],
+      "steps": [
+        "Test cruise control and throttle response; check for stuck/unintended acceleration complaints on the test drive.",
+        "Scan for throttle/pedal-position codes."
+      ]
+    },
+    {
+      "area": "STEERING",
+      "why": [
+        "recall 12V222000 (STEERING:HYDRAULIC POWER ASSIST:HOSE, PIPING, AND CONNECTIONS)"
+      ],
+      "steps": [
+        "Test drive: play, wander, noise when turning lock-to-lock, warning lights for EPS.",
+        "Inspect tie rods, rack boots, power steering fluid/leaks (if hydraulic); scan EPS module."
+      ]
+    },
+    {
+      "area": "EXTERIOR LIGHTING",
+      "why": [
+        "recall 09E025000 (EXTERIOR LIGHTING:HEADLIGHTS)",
+        "recall 09E012000 (EXTERIOR LIGHTING)",
+        "recall 08E050000 (EXTERIOR LIGHTING:HEADLIGHTS)",
+        "recall 07E031000 (EXTERIOR LIGHTING:HEADLIGHTS)",
+        "recall 07E004000 (EXTERIOR LIGHTING:HEADLIGHTS)",
+        "recall 06E064000 (EXTERIOR LIGHTING)",
+        "recall 06E038000 (EXTERIOR LIGHTING)",
+        "recall 06E032000 (EXTERIOR LIGHTING)",
+        "recall 06E025000 (EXTERIOR LIGHTING:HEADLIGHTS)",
+        "recall 06E023000 (EXTERIOR LIGHTING:HEADLIGHTS)"
+      ],
+      "steps": [
+        "Check all exterior lamps: headlights low/high, DRL, brake, turn, reverse; look for moisture in housings."
+      ]
+    },
+    {
+      "area": "VISIBILITY",
+      "why": [
+        "recall 08V169000 (VISIBILITY:WINDSHIELD WIPER/WASHER:MOTOR)"
+      ],
+      "steps": [
+        "Check wipers, washers, defrost, mirrors, and backup camera; inspect windshield."
+      ]
+    }
+  ],
+  "genericBaseline": {
+    "label": "GENERIC pre-purchase baseline (applies to any used car; not derived from this vehicle's data)",
+    "items": [
+      "Run the VIN at nhtsa.gov/recalls (or the OEM site) to confirm open recalls on THIS vehicle.",
+      "Get a vehicle history report (title brands, accidents, odometer).",
+      "Full-system scan of all modules; check readiness monitors.",
+      "Cold-start check and 15+ minute test drive (city and highway).",
+      "Lift inspection: leaks, frame/rust, suspension, exhaust, brakes, tires.",
+      "Check all fluids, belts, hoses; battery/charging test.",
+      "Verify odometer vs. history/service records; confirm title and VIN plates match."
+    ]
+  },
+  "sources": [
+    "https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues",
+    "https://api.nhtsa.gov/recalls/recallsByVehicle",
+    "https://api.nhtsa.gov/complaints/complaintsByVehicle"
+  ],
+  "note": "Complaints are unverified owner reports for the model year/make/model, not confirmed defects on this vehicle. These are recalls NHTSA lists for this model year/make/model, NOT confirmed open on this specific vehicle. NHTSA has no public no-auth VIN-specific open-recall API. Check nhtsa.gov/recalls with the VIN or the dealer to confirm if it is open on this specific vehicle."
+}
