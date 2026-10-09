@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "nhtsa-vpic-vin",
-  "version": "0.1.0",
-  "description": "Decode vehicle VINs via the public NHTSA vPIC DecodeVinValues API for Diag Desk diagnostics, shop ROs, and Ambrosia's Automotive workflows. Returns a compact VinDecode object (year/make/model/trim and related fields) — never invents API data.",
+  "version": "0.2.0",
+  "description": "Decode VINs via the public NHTSA vPIC API and list NHTSA safety recalls (plus owner-complaint summaries) for a vehicle's year/make/model, for Diag Desk diagnostics, shop ROs, and Ambrosia's Automotive workflows. Recalls are year/make/model-level, not VIN-confirmed \u2014 check nhtsa.gov/recalls with the VIN to confirm. Never invents API data.",
   "author": {
     "name": "Ryan Ambrosia / Ambrosia's Automotive"
   },
@@ -12,7 +12,10 @@
     "vpic",
     "automotive",
     "diag-desk",
-    "vehicle-identification"
+    "vehicle-identification",
+    "recalls",
+    "complaints",
+    "safety-recalls"
   ],
   "license": "MIT"
 }

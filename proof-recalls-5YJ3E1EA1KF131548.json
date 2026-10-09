@@ -1,0 +1,397 @@
+{
+  "capturedAt": "2026-10-09T02:05:34.687Z",
+  "request": {
+    "name": "list_recalls",
+    "arguments": {
+      "vin": "5YJ3E1EA1KF131548"
+    }
+  },
+  "isError": false,
+  "result": {
+    "vehicle": {
+      "year": 2019,
+      "make": "TESLA",
+      "model": "Model 3"
+    },
+    "source": "https://api.nhtsa.gov/recalls/recallsByVehicle",
+    "queries": [
+      {
+        "model": "Model 3",
+        "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=TESLA&model=Model%203&modelYear=2019",
+        "httpStatus": 200,
+        "count": 22
+      }
+    ],
+    "count": 22,
+    "recalls": [
+      {
+        "campaignNumber": "26V507000",
+        "reportReceivedDate": "05/08/2026",
+        "reportReceivedDateIso": "2026-08-05",
+        "component": "EXTERIOR LIGHTING:HEADLIGHTS",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2017-2023 Model 3 and 2020-2023 Model Y vehicles. The headlight low beams may be too bright and exceed the maximum light output. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 108, \"Lamps, Reflective Devices, and Associated Equipment.\"",
+        "consequence": "Headlight low beams that are too bright can reduce visibility for oncoming drivers, increasing the risk of a crash.",
+        "remedy": "Tesla Service will replace the headlights, free of charge. Owner notification letters are expected to be mailed October 3, 2026. Owners may contact Tesla customer service at 1-877-798-3752. Tesla's number for this recall is SB-24-17-003.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "24V935000",
+        "reportReceivedDate": "17/12/2024",
+        "reportReceivedDateIso": "2024-12-17",
+        "component": "TIRES:PRESSURE MONITORING AND REGULATING SYSTEMS",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2024 Cybertruck, 2017-2025 Model 3, and 2020-2025 Model Y vehicles.  The tire pressure monitoring system (TPMS) warning light may not remain illuminated between drive cycles, failing to warn the driver of low tire pressure.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 138, \"Tire Pressure Monitoring Systems.\"",
+        "consequence": "Driving with improperly inflated tires increases the risk of a crash.",
+        "remedy": "Tesla released an over-the-air (OTA) software update, free of charge.  Owner notification letters were mailed February 15, 2025.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-24-00-018.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": true,
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "24V376000",
+        "reportReceivedDate": "28/05/2024",
+        "reportReceivedDateIso": "2024-05-28",
+        "component": "SEAT BELTS:FRONT:WARNING LIGHT/DEVICES",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2012-2024 Model S, 2015-2024 Model X, 2017-2023 Model 3, and 2020-2023 Model Y vehicles.  In the event of an unbelted driver, the seat belt warning light and audible chime may not activate as intended.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 208, \"Occupant Crash Protection.\"",
+        "consequence": "A seat belt warning system that fails to alert occupants of an unbelted seat belt can increase the risk of injury during a crash.",
+        "remedy": "Tesla will release an over-the-air (OTA) software update.  Owner notification letters were mailed July 26, 2024.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-24-00-008.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": true,
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "24V153000",
+        "reportReceivedDate": "27/02/2024",
+        "reportReceivedDateIso": "2024-02-27",
+        "component": "FORWARD COLLISION AVOIDANCE: WARNINGS:EXTERNAL/PEDESTRIAN ALERT",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2013, 2018-2021 Model S, 2020-2021 Model X, 2018-2022 Model 3, and 2020-2022 Model Y vehicles.  A factory reset muted the Pedestrian Warning System (PWS) sounds.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 141, \"Minimum Sound Requirements for Hybrid and Electric Vehicles.\"",
+        "consequence": "Pedestrians may be unaware of an approaching vehicle if the PWS sounds are muted, increasing the risk of a crash.",
+        "remedy": "Tesla released an over-the-air (OTA) software update, release 2023.44.30.14, free of charge.  Owner notification letters were mailed April 27, 2024.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-24-00-006.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": true,
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "24V051000",
+        "reportReceivedDate": "30/01/2024",
+        "reportReceivedDateIso": "2024-01-30",
+        "component": "ELECTRICAL SYSTEM: INSTRUMENT CLUSTER/PANEL",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2012-2023 Model S, 2016-2024 Model X, 2017-2023 Model 3, 2019-2024 Model Y, and 2024 Cybertruck vehicles.  An incorrect font size is displayed on the instrument panel for the Brake, Park, and Antilock Brake System (ABS) warning lights.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 105, \"Hydraulic and Electric Brake Systems\" and 135, \"Light Vehicle Brake Systems.\"",
+        "consequence": "Warning lights with a smaller font size can make critical safety information on the instrument panel difficult to read, increasing the risk of a crash.",
+        "remedy": "Tesla began releasing an over-the-air (OTA) software update, free of charge.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-24-00-003.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": true,
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "23V838000",
+        "reportReceivedDate": "12/12/2023",
+        "reportReceivedDateIso": "2023-12-12",
+        "component": "ELECTRICAL SYSTEM:ADAS:AUTONOMOUS/SELF DRIVING:SOFTWARE",
+        "summary": "Tesla, Inc. (Tesla) is recalling 2012-2023 Model S, 2016-2023 Model X, 2017-2023 Model 3, and 2020-2023 Model Y vehicles equipped with all versions of Autosteer leading up to the version(s) that contains the recall remedy.  In certain circumstances when Autosteer is engaged, the prominence and scope of the feature's controls may not be sufficient to prevent driver misuse of the SAE Level 2 advanced driver-assistance feature.",
+        "consequence": "In certain circumstances when Autosteer is engaged, and the driver does not maintain responsibility for vehicle operation and is unprepared to intervene as necessary or fails to recognize when Autosteer is canceled or not engaged, there may be an increased risk of a crash.",
+        "remedy": "Tesla will release an over-the-air (OTA) software update, free of charge.  Owner notification letters were mailed February 10, 2024.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-23-00-008.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": true,
+        "nhtsaActionNumber": "EA22002",
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "23V235000",
+        "reportReceivedDate": "31/03/2023",
+        "reportReceivedDateIso": "2023-03-31",
+        "component": "SUSPENSION:FRONT",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2018-2019 Model 3 vehicles.  The front suspension lateral link fasteners may loosen, allowing the lateral link to separate from the sub-frame.",
+        "consequence": "A lateral link separation could shift the wheel alignment, causing instability and increasing the risk of a crash.",
+        "remedy": "Tesla Service will tighten or replace the lateral link fasteners as necessary, free of charge.  Owner notification letters were mailed May 30, 2023.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-23-31-001.  This recall is an expansion of previous recall number 21V-835.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "23V085000",
+        "reportReceivedDate": "15/02/2023",
+        "reportReceivedDateIso": "2023-02-15",
+        "component": "STEERING:AUTOMATED/ADAPTIVE STEERING",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2016-2023 Model S, Model X, 2017-2023 Model 3, and 2020-2023 Model Y vehicles equipped with Full Self-Driving Beta (FSD Beta) software or pending installation.  The FSD Beta system may allow the vehicle to act unsafe around intersections, such as traveling straight through an intersection while in a turn-only lane, entering a stop sign-controlled intersection without coming to a complete stop, or proceeding into an intersection during a steady yellow traffic signal without due caution. In addition, the system may respond insufficiently to changes in posted speed limits or not adequately account for the driver's adjustment of the vehicle's speed to exceed posted speed limits.",
+        "consequence": "FSD Beta software that allows a vehicle to exceed speed limits or travel through intersections in an unlawful or unpredictable manner increases the risk of a crash.",
+        "remedy": "Tesla will release an over-the-air (OTA) software update, free of charge.  Owner notification letters were mailed April 15, 2023.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-23-00-001.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": true,
+        "nhtsaActionNumber": "EA22002",
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "22V798000",
+        "reportReceivedDate": "21/10/2022",
+        "reportReceivedDateIso": "2022-10-21",
+        "component": "SEAT BELTS:REAR/OTHER:ANCHORAGE",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2017-2022 Model 3 vehicles.  The second-row left seat belt buckle and second-row center seat\r\nbelt anchor may have been incorrectly reassembled during vehicle service.",
+        "consequence": "An incorrectly reassembled seat belt anchor can impair the performance of the seat belt during a crash, increasing the risk of injury.",
+        "remedy": "Tesla Service will inspect and reassemble the seat belt anchors as necessary, free of charge.  Owner notification letters were mailed December 20, 2022.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-22-20-004.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "22V702000",
+        "reportReceivedDate": "19/09/2022",
+        "reportReceivedDateIso": "2022-09-19",
+        "component": "VISIBILITY:POWER WINDOW DEVICES AND CONTROLS",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2017-2022 Model 3, 2020-2022 Model Y, and 2021-2022 Model S and Model X vehicles.  The window automatic reversal system may not react correctly after detecting an obstruction.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 118, \"Power-Operated Window Systems.\"",
+        "consequence": "A closing window may exert excessive force by pinching a driver or passenger before retracting, increasing the risk of injury.",
+        "remedy": "Tesla will perform an over-the-air (OTA) software update of the automatic window reversal system, free of charge.  Owner notification letters were mailed March 31, 2032.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-22-00-013.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": true,
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "22V263000",
+        "reportReceivedDate": "18/04/2022",
+        "reportReceivedDateIso": "2022-04-18",
+        "component": "ELECTRICAL SYSTEM: INSTRUMENT CLUSTER/PANEL",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2018-2022 Model 3 Performance vehicles.  The unit of speed (mph or km/h) may fail to display on the speedometer while in Track Mode.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 101, \"Control and Displays.\"",
+        "consequence": "The driver may not know how fast the vehicle is traveling without the mph or km/h unit display, increasing the risk of a crash.",
+        "remedy": "Tesla will perform an over-the-air (OTA) software update, free of charge.  Owner notification letters were mailed June 17, 2022.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-22-00-008.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": true,
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "22V235000",
+        "reportReceivedDate": "12/04/2022",
+        "reportReceivedDateIso": "2022-04-12",
+        "component": "ELECTRICAL SYSTEM:SOFTWARE",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2020-2022 Model Y, Model X, Model S, and 2017-2022 Model 3 vehicles.  The Boombox function allows sounds to be played through an external speaker while the vehicle is in motion, which may obscure the Pedestrian Warning System (PWS) sounds.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 141, \"Minimum Sound Requirements for Hybrid and Electric Vehicles.\"",
+        "consequence": "Pedestrians may be unaware of an approaching vehicle if the PWS sounds are obscured, increasing the risk of a crash.",
+        "remedy": "Tesla will perform an over-the-air (OTA) software update that will disable the Boombox functionality when the vehicle is in Drive, Neutral and Reverse modes, including Summon and Smart Summon, free of charge.  Owner notification letters were mailed June 6, 2022.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-22-00-003.  Note: This recall supersedes recall 22V-063.  Vehicles configured with Summon or Smart Summon and already remedied under 22V-063 will need to have the new remedy software installed.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": true,
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "22V169000",
+        "reportReceivedDate": "18/03/2022",
+        "reportReceivedDateIso": "2022-03-18",
+        "component": "BACK OVER PREVENTION:DISPLAY FUNCTION",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2018-2019 Model S, Model X, and 2017-2020 Model 3 vehicles equipped with Autopilot Computer 2.5 and operating certain firmware releases.  The rearview image may not immediately display when the vehicle begins to reverse.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 111, \"Rear Visibility.\"",
+        "consequence": "A delayed rearview camera image reduces the driver's rear view, increasing the risk of a crash.",
+        "remedy": "Tesla will perform an over-the-air (OTA) software update, free of charge.  Owner notification letters were mailed May 17, 2022.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-22-00-004.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": true,
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "22V063000",
+        "reportReceivedDate": "04/02/2022",
+        "reportReceivedDateIso": "2022-02-04",
+        "component": "ELECTRICAL SYSTEM:SOFTWARE",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2020-2022 Model S, Model X, Model Y, and 2017-2022 Model 3 vehicles.  The Boombox function allows sounds to be played through an external speaker while the vehicle is in motion, which may obscure the Pedestrian Warning System (PWS) sounds.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 141, \"Minimum Sound Requirements for Hybrid and Electric Vehicles.\"",
+        "consequence": "Pedestrians may be unaware of an approaching vehicle if the PWS sounds are obscured, increasing the risk of a crash.",
+        "remedy": "Tesla will perform an over-the-air (OTA) software update that will disable the Boombox functionality when the vehicle is in Drive, Neutral and Reverse modes, free of charge.  Owner notification letters are expected to be mailed April 5, 2022.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-22-00-003.  Note: This recall has been superseded by Recall 22V-235.  Tesla's number for the new recall is SB-22-00-003.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": true,
+        "nhtsaActionNumber": "DP22005",
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "22V045000",
+        "reportReceivedDate": "01/02/2022",
+        "reportReceivedDateIso": "2022-02-01",
+        "component": "ELECTRICAL SYSTEM:SOFTWARE",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2021-2022 Model S and Model X, 2017-2022 Model 3, and 2020-2022 Model Y vehicles.  The audible chime may not activate when the vehicle starts and the driver has not buckled their seat belt.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard number 208, \"Occupant Crash Protection.\"",
+        "consequence": "The driver may be unaware that their seat belt is not fastened, increasing the risk of injury during a crash.",
+        "remedy": "Tesla will perform an over-the-air (OTA) software update, free of charge.  Owner notification letters were mailed April 1, 2022.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-22-00-002.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": true,
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "22V037000",
+        "reportReceivedDate": "27/01/2022",
+        "reportReceivedDateIso": "2022-01-27",
+        "component": "ELECTRICAL SYSTEM:ADAS:AUTONOMOUS/SELF DRIVING:SOFTWARE",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2016-2022 Model S and Model X, 2017-2022 Model 3, and 2020-2022 Model Y vehicles.  The \"rolling stop\" functionality available as part of the Full Self-Driving (Beta) software may allow the vehicle to travel through an all-way stop intersection without first coming to a stop.",
+        "consequence": "Failing to stop at a stop sign can increase the risk of a crash.",
+        "remedy": "Tesla will perform an over-the-air (OTA) software update that disables the \"rolling stop\" functionality, free of charge.  Owner notification letters were mailed March 28, 2022.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-22-00-001.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": true,
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "21V00D000",
+        "reportReceivedDate": "21/12/2021",
+        "reportReceivedDateIso": "2021-12-21",
+        "component": "ELECTRICAL SYSTEM:WIRING: REAR COMPARTMENT/TRUNK",
+        "summary": "Tesla, Inc. (Tesla) is recalling all 2017-2020 Model 3 vehicles.  The rearview camera cable harness may be damaged by the opening and closing of the trunk lid, preventing the rearview camera image from displaying.",
+        "consequence": "A rearview camera that does not function reduces the driver's rear view, increasing the risk of a crash.",
+        "remedy": "Tesla Service will inspect and install a guide protector and new cable harness as necessary, free of charge.  Owner notification letters were mailed April 24, 2022.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-21-17-008.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "21V846000",
+        "reportReceivedDate": "29/10/2021",
+        "reportReceivedDateIso": "2021-10-29",
+        "component": "FORWARD COLLISION AVOIDANCE: SENSING SYSTEM: CAMERA",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2017-2021 Model S, Model 3, Model X, and 2020-2021 Model Y vehicles operating software version 2021.36.5.2.  A communication error may cause false forward-collision warning (FCW) or unexpected activation of the automatic emergency brake (AEB) system.",
+        "consequence": "Unexpected activation of the AEB system may cause the car to stop suddenly, increasing the risk of a crash.",
+        "remedy": "Tesla Service has released an over-the-air (OTA) software update, free of charge.  The recall began October 25, 2021.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-21-00-004.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": true,
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "21V835000",
+        "reportReceivedDate": "25/10/2021",
+        "reportReceivedDateIso": "2021-10-25",
+        "component": "SUSPENSION:CRITICAL FASTENERS",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2020-2021 Model Y and 2019-2021 Model 3 vehicles.  The front suspension lateral link fasteners may loosen, allowing the lateral link to separate from the sub-frame.",
+        "consequence": "A lateral link separation could shift the wheel alignment, causing instability and increasing the risk of a crash.",
+        "remedy": "Tesla Service will tighten or replace the lateral link fasteners as necessary, free of charge.  Owner notification letters were mailed December 20, 2021.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-21-31-003.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "21V389000",
+        "reportReceivedDate": "25/05/2021",
+        "reportReceivedDateIso": "2021-05-25",
+        "component": "SEAT BELTS",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2018-2020 Model 3 and 2019-2021 Model Y vehicles.  One or both fasteners that secure the front seat shoulder belt to the b-pillar may not be properly attached.",
+        "consequence": "An improperly attached fastener may prevent the seat belt system from performing as designed, increasing the risk of injury.",
+        "remedy": "Tesla Service will inspect and repair both fasteners if necessary, free of charge.  Owner notification letters were mailed July 23, 2021.  Owners may contact Tesla customer service online by visiting www.tesla.com/support/contact or by calling 1-877-79-TESLA (or 1-877-798-3752).  Tesla's number for this recall is SB-21-20-001.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "21V387000",
+        "reportReceivedDate": "25/05/2021",
+        "reportReceivedDateIso": "2021-05-25",
+        "component": "SERVICE BRAKES, HYDRAULIC:FOUNDATION COMPONENTS:DISC:CALIPER",
+        "summary": "Tesla, Inc. (Tesla) is recalling certain 2019-2021 Model 3 and 2020-2021 Model Y vehicles.  The brake caliper bolts may be loose, allowing the brake caliper to separate and contact the wheel rim.",
+        "consequence": "Contact with the rim may cause a loss of tire pressure, increasing the risk of a crash.",
+        "remedy": "Tesla Service will inspect and tighten, or replace the caliper bolts as necessary, free of charge.  Owner notification letters were mailed July 23, 2021.  Owners may contact Tesla customer service online by visiting www.tesla.com/support/contact or by calling 1-877-79-TESLA (or 1-877-798-3752).  Tesla's number for this recall is SB-21-33-002.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaModel": "MODEL 3"
+      },
+      {
+        "campaignNumber": "19V719000",
+        "reportReceivedDate": "10/10/2019",
+        "reportReceivedDateIso": "2019-10-10",
+        "component": "EQUIPMENT:OTHER:LABELS",
+        "summary": "Tesla Motors, Inc. (Tesla) is recalling certain 2019 Tesla Model 3 vehicles. The driver-side sun visor may not have the required air bag warning information.  As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 208, \"Occupant Crash Protection.\"",
+        "consequence": "Failure to provide the air bag warning information increases the risk of injury.",
+        "remedy": "Tesla will notify owners, and Tesla Service Centers will inspect the visor and replace it, as necessary, free of charge.  The recall began December 6, 2019.  Owners may contact Tesla customer service at 1-877-798-3752.  Tesla's number for this recall is SB-19-15-003.",
+        "manufacturer": "Tesla, Inc.",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaModel": "MODEL 3"
+      }
+    ],
+    "note": "These are recalls NHTSA lists for this model year/make/model, NOT confirmed open on this specific vehicle. NHTSA has no public no-auth VIN-specific open-recall API. Check nhtsa.gov/recalls with the VIN or the dealer to confirm if it is open on this specific vehicle.",
+    "vin": "5YJ3E1EA1KF131548",
+    "decodeWarning": "1 - Check Digit (9th position) does not calculate properly"
+  },
+  "complaints": {
+    "request": {
+      "name": "list_complaints",
+      "arguments": {
+        "vin": "5YJ3E1EA1KF131548",
+        "top": 5
+      }
+    },
+    "isError": false,
+    "result": {
+      "vehicle": {
+        "year": 2019,
+        "make": "TESLA",
+        "model": "Model 3"
+      },
+      "source": "https://api.nhtsa.gov/complaints/complaintsByVehicle",
+      "queries": [
+        {
+          "model": "Model 3",
+          "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=TESLA&model=Model%203&modelYear=2019",
+          "httpStatus": 200,
+          "count": 616
+        }
+      ],
+      "count": 616,
+      "crashes": 60,
+      "fires": 5,
+      "injuries": 30,
+      "deaths": 4,
+      "topComponents": [
+        {
+          "component": "FORWARD COLLISION AVOIDANCE",
+          "count": 169
+        },
+        {
+          "component": "ELECTRICAL SYSTEM",
+          "count": 91
+        },
+        {
+          "component": "AIR BAGS",
+          "count": 86
+        },
+        {
+          "component": "SUSPENSION",
+          "count": 82
+        },
+        {
+          "component": "UNKNOWN OR OTHER",
+          "count": 78
+        }
+      ],
+      "note": "Owner complaints filed with NHTSA for this model year/make/model (deduplicated by ODI number). Complaints are unverified owner reports, not recalls or confirmed defects; one complaint can list several components."
+    }
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "capturedAt": "2026-10-09T02:05:37.581Z",
+  "request": {
+    "name": "list_recalls",
+    "arguments": {
+      "vin": "1FTFW1ET5DFC10312"
+    }
+  },
+  "isError": false,
+  "result": {
+    "vehicle": {
+      "year": 2013,
+      "make": "FORD",
+      "model": "F-150"
+    },
+    "source": "https://api.nhtsa.gov/recalls/recallsByVehicle",
+    "queries": [
+      {
+        "model": "F-150",
+        "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=FORD&model=F-150&modelYear=2013",
+        "httpStatus": 200,
+        "count": 3
+      },
+      {
+        "model": "F-150 REGULAR CAB",
+        "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=FORD&model=F-150%20REGULAR%20CAB&modelYear=2013",
+        "httpStatus": 400,
+        "count": 0
+      },
+      {
+        "model": "F-150 SUPER CREW",
+        "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=FORD&model=F-150%20SUPER%20CREW&modelYear=2013",
+        "httpStatus": 400,
+        "count": 0
+      },
+      {
+        "model": "F-150 SUPERCAB",
+        "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=FORD&model=F-150%20SUPERCAB&modelYear=2013",
+        "httpStatus": 400,
+        "count": 0
+      }
+    ],
+    "count": 3,
+    "recalls": [
+      {
+        "campaignNumber": "19V433000",
+        "reportReceivedDate": "10/06/2019",
+        "reportReceivedDateIso": "2019-06-10",
+        "component": "POWER TRAIN:AUTOMATIC TRANSMISSION",
+        "summary": "Ford Motor Company (Ford) is recalling certain 2013 F-150 vehicles equipped with 5.0L or 6.2L gasoline engines, that previously had the powertrain control module (PCM) software reprogrammed under recall 19V-075.  The software used to reprogram the PCM did not have the necessary updates to prevent the transmission from unexpectedly downshifting into first gear, regardless of vehicle speed.",
+        "consequence": "Unexpectedly downshifting into first gear may result in a loss of vehicle control, increasing the risk of a crash.",
+        "remedy": "Ford will notify owners, and dealers will reprogram the powertrain control module, free of charge.  The recall began June 24, 2019.  Owners may contact Ford customer service at 1-866-436-7332.  Ford's number for this recall is 19S19.",
+        "manufacturer": "Ford Motor Company",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaModel": "F-150"
+      },
+      {
+        "campaignNumber": "19V075000",
+        "reportReceivedDate": "11/02/2019",
+        "reportReceivedDateIso": "2019-02-11",
+        "component": "POWER TRAIN:AUTOMATIC TRANSMISSION:CONTROL MODULE (TCM/PCM/TECM)",
+        "summary": "Ford Motor Company (Ford) is recalling certain 2011-2013 F-150 vehicles equipped with a 6-speed automatic transmission.  The transmission may unexpectedly downshift into first gear, regardless of vehicle speed.",
+        "consequence": "Unexpectedly downshifting into first gear may result in a loss of vehicle control, increasing the risk of a crash.",
+        "remedy": "Ford will notify owners, and dealers will reprogram the powertrain control module, free of charge.  The recall began March 4, 2019.  Owners may contact Ford customer service at 1-866-436-7332.  Ford's number for this recall is 19S07.",
+        "manufacturer": "Ford Motor Company",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaActionNumber": "RQ17010",
+        "nhtsaModel": "F-150"
+      },
+      {
+        "campaignNumber": "16V345000",
+        "reportReceivedDate": "24/05/2016",
+        "reportReceivedDateIso": "2016-05-24",
+        "component": "SERVICE BRAKES, HYDRAULIC:FLUID",
+        "summary": "Ford Motor Company (Ford) is recalling certain model year 2013-2014 F-150 vehicles manufactured August 1, 2013, to August 31, 2014 equipped with 3.5L engines.  The master cylinder rear cup seal may roll, resulting in brake fluid leakage from the primary reservoir into the brake booster.",
+        "consequence": "Loss of brake fluid from the primary reservoir results in a complete loss of front brake function, increasing the risk of a crash.",
+        "remedy": "Ford will notify owners, and dealers will replace the brake master cylinder and, if necessary, the brake booster, free of charge.  The recall began on October 28, 2016.  Owners may contact Ford customer service at 1-866-436-7332.  Ford's number for this recall is 16S24.",
+        "manufacturer": "Ford Motor Company",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaActionNumber": "PE16003",
+        "nhtsaModel": "F-150"
+      }
+    ],
+    "note": "These are recalls NHTSA lists for this model year/make/model, NOT confirmed open on this specific vehicle. NHTSA has no public no-auth VIN-specific open-recall API. Check nhtsa.gov/recalls with the VIN or the dealer to confirm if it is open on this specific vehicle.",
+    "vin": "1FTFW1ET5DFC10312",
+    "decodeWarning": "1 - Check Digit (9th position) does not calculate properly"
+  },
+  "complaints": {
+    "request": {
+      "name": "list_complaints",
+      "arguments": {
+        "vin": "1FTFW1ET5DFC10312",
+        "top": 5
+      }
+    },
+    "isError": false,
+    "result": {
+      "vehicle": {
+        "year": 2013,
+        "make": "FORD",
+        "model": "F-150"
+      },
+      "source": "https://api.nhtsa.gov/complaints/complaintsByVehicle",
+      "queries": [
+        {
+          "model": "F-150",
+          "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=FORD&model=F-150&modelYear=2013",
+          "httpStatus": 400,
+          "count": 0
+        },
+        {
+          "model": "F-150 REGULAR CAB",
+          "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=FORD&model=F-150%20REGULAR%20CAB&modelYear=2013",
+          "httpStatus": 200,
+          "count": 2796
+        },
+        {
+          "model": "F-150 SUPER CREW",
+          "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=FORD&model=F-150%20SUPER%20CREW&modelYear=2013",
+          "httpStatus": 200,
+          "count": 2796
+        },
+        {
+          "model": "F-150 SUPERCAB",
+          "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=FORD&model=F-150%20SUPERCAB&modelYear=2013",
+          "httpStatus": 200,
+          "count": 2796
+        }
+      ],
+      "count": 2796,
+      "crashes": 74,
+      "fires": 31,
+      "injuries": 60,
+      "deaths": 1,
+      "topComponents": [
+        {
+          "component": "POWER TRAIN",
+          "count": 1212
+        },
+        {
+          "component": "ENGINE",
+          "count": 531
+        },
+        {
+          "component": "SERVICE BRAKES",
+          "count": 309
+        },
+        {
+          "component": "ELECTRICAL SYSTEM",
+          "count": 306
+        },
+        {
+          "component": "VEHICLE SPEED CONTROL",
+          "count": 275
+        }
+      ],
+      "note": "Owner complaints filed with NHTSA for this model year/make/model (deduplicated by ODI number). Complaints are unverified owner reports, not recalls or confirmed defects; one complaint can list several components."
+    }
+  }
+}

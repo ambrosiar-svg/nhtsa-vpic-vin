@@ -1,0 +1,396 @@
+{
+  "capturedAt": "2026-10-09T02:05:34.073Z",
+  "request": {
+    "name": "list_recalls",
+    "arguments": {
+      "vin": "1HGCM82633A004352"
+    }
+  },
+  "isError": false,
+  "result": {
+    "vehicle": {
+      "year": 2003,
+      "make": "HONDA",
+      "model": "Accord"
+    },
+    "source": "https://api.nhtsa.gov/recalls/recallsByVehicle",
+    "queries": [
+      {
+        "model": "Accord",
+        "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=HONDA&model=Accord&modelYear=2003",
+        "httpStatus": 200,
+        "count": 24
+      }
+    ],
+    "count": 24,
+    "recalls": [
+      {
+        "campaignNumber": "19E068000",
+        "reportReceivedDate": "10/10/2019",
+        "reportReceivedDateIso": "2019-10-10",
+        "component": "VEHICLE SPEED CONTROL:ACCELERATOR PEDAL",
+        "summary": "Dorman Products, Inc.  (Dorman) is recalling certain Accelerator Pedal Assemblies part numbers 699-114 and 825-5029-1, sold as replacement parts for 2003-2006 Acura MDX, 2004-2008 Acura TL and TSX, 2003-2007 Honda Accord, 2005-2006 Honda CR-V, 2007-2011 Honda Element, 2005-2008 Honda Pilot and 2006-2014 Honda Ridgeline vehicles.  The rotating portion of the accelerator pedal assembly may bind. As such, these vehicles fail to comply with the requirements of Federal Motor Vehicle Safety Standard (FMVSS) number 124, \"Accelerator Control Systems.\"",
+        "consequence": "If the accelerator pedal binds, the engine may not quickly return to idle after the pedal is no longer pressed, increasing the risk of a crash.",
+        "remedy": "Dorman will notify owners, and qualified service facilities will replace the affected accelerator pedal assemblies, free of charge.  The recall began December 9, 2019.  Owners may contact Dorman customer service at 1-800-523-2492, using option 5.  Dorman's number for this recall is AS1019XXXX.",
+        "manufacturer": "Dorman Products, Inc.",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "19V499000",
+        "reportReceivedDate": "27/06/2019",
+        "reportReceivedDateIso": "2019-06-27",
+        "component": "AIR BAGS:FRONTAL:DRIVER SIDE:INFLATOR MODULE",
+        "summary": "Honda (American Honda Motor Co.) is recalling certain 2003 Acura 3.2CL, 2002-2003 3.2TL, 2003-2006 MDX, 2001-2007 Honda Accord, 2001-2005 Civic, 2003-2005 Civic Hybrid, 2001-2005 Civic GX NGV, 2002-2006 CR-V, 2003-2011 Element, 2002-2004 Odyssey, 2003-2008 Pilot and 2006 Ridgeline vehicles.  \r\n\r\nThese vehicles are equipped with driver frontal air bag inflators assembled as a recall remedy part or replacement service part, that may explode due to propellant degradation occurring after long-term exposure to high absolute humidity, temperature and temperature cycling.",
+        "consequence": "An inflator explosion may result in sharp metal fragments striking the driver or other occupants resulting in serious injury or death.",
+        "remedy": "Honda will notify owners, and dealers will replace the driver frontal air bag inflator, free of charge.  The recall began August 12, 2019.  Owners may contact Honda customer service at 1-888-234-2138.  Honda's numbers for this recall are Q5A and Y58.",
+        "manufacturer": "Honda (American Honda Motor Co.)",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaActionNumber": "EA15001",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "19V501000",
+        "reportReceivedDate": "27/06/2019",
+        "reportReceivedDateIso": "2019-06-27",
+        "component": "AIR BAGS:FRONTAL:PASSENGER SIDE:INFLATOR MODULE",
+        "summary": "Honda (American Honda Motor Co.) is recalling certain 2003-2006 Acura MDX, 2005-2012 RL, 2003-2007 Honda Accord, 2001-2005 Civic, 2003-2005 Civic Hybrid, 2001-2005 Civic GX NGV, 2002-2006 CR-V, 2003-2011 Element, 2007-2008 Fit, 2002-2004 Odyssey, 2003-2008 Pilot, and 2006-2014 Ridgeline vehicles. \r\n\r\nThe vehicles are equipped with passenger frontal air bag inflators assembled as a recall remedy part or replacement service part, that may explode due to propellant degradation occurring after long-term exposure to high absolute humidity, temperature and temperature cycling.",
+        "consequence": "An inflator explosion may result in sharp metal fragments striking the driver or other occupants resulting in serious injury or death.",
+        "remedy": "Honda will notify owners, and dealers will replace the passenger frontal airbag inflator, free of charge.  The recall began August 12, 2019.  Owners may contact Honda customer service at 1-888-234-2138.  Honda's numbers for this recall are E5D and X5C.",
+        "manufacturer": "Honda (American Honda Motor Co.)",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaActionNumber": "EA15001",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "19V182000",
+        "reportReceivedDate": "06/03/2019",
+        "reportReceivedDateIso": "2019-03-06",
+        "component": "AIR BAGS:FRONTAL:DRIVER SIDE:INFLATOR MODULE",
+        "summary": "Honda (American Honda Motor Co.) is recalling specific 2003 Acura 3.2CL, 2013-2016 ILX, 2013-2014 ILX Hybrid, 2003-2006 MDX, 2007-2016 RDX, 2002-2003 3.2TL, 2004-2006, and 2009-2014 TL, 2010-2013 ZDX and 2001-2007 and 2009 Honda Accord, 2001-2005 Civic, 2003-2005 Civic Hybrid, 2001-2005 Civic GX NGV, 2002-2007 and 2010-2011 CR-V, 2003-2011 Element, 2007 Fit, 2002-2004 Odyssey, 2003-2008 Pilot, and 2006-2014 Ridgeline vehicles.  The affected vehicles received a replacement driver air bag inflator as part of a previous Takata inflator recall remedy or a replacement driver air bag module containing the same inflator type as a service part.  Due to a manufacturing error, in the event of a crash necessitating deployment of the driver frontal air bag, these inflators may explode.",
+        "consequence": "An explosion of an inflator within the driver frontal air bag module may result in sharp metal fragments striking the driver, front seat passenger or other occupants resulting in serious injury or death.",
+        "remedy": "Honda will notify owners, and dealers will replace the driver's air bag inflator with an alternate inflator, free of charge.  The recall began April 10, 2019.  Honda owners may contact customer service at 1-888-234-2138.  Honda's number for this recall is O41.  Acura owners may contact customer service at 1-888-234-2138.  Acura's number for this recall is U40.",
+        "manufacturer": "Honda (American Honda Motor Co.)",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaActionNumber": "EA15001",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "18V268000",
+        "reportReceivedDate": "26/04/2018",
+        "reportReceivedDateIso": "2018-04-26",
+        "component": "AIR BAGS:FRONTAL:PASSENGER SIDE:INFLATOR MODULE",
+        "summary": "Honda (American Honda Motor Co.) is recalling certain 2003-2012 Honda Accord and Pilot, 2010 Accord Crosstour, 2001-2011 Civic, 2002-2011 CR-V, 2003-2004, 2006-2008 and 2011 Element, 2007 and 2009-2013 Fit, 2010-2012 Insight, 2002-2004 Odyssey, and 2012 Ridgeline vehicles.  The front passenger air bag may have been installed incorrectly during replacement.",
+        "consequence": "An incorrectly installed air bag may deploy improperly in the event of a crash, increasing the risk of injury.",
+        "remedy": "Honda will notify owners, and dealers will inspect and, if necessary, replace the passenger frontal air bag module assembly, free of charge.  The recall began June 22, 2018.  Owners may contact Honda customer service at 1-888-234-2138.  Honda's numbers for this recall are K1P, and M1O.",
+        "manufacturer": "Honda (American Honda Motor Co.)",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "17V220000",
+        "reportReceivedDate": "30/03/2017",
+        "reportReceivedDateIso": "2017-03-30",
+        "component": "AIR BAGS:FRONTAL:PASSENGER SIDE:INFLATOR MODULE",
+        "summary": "Honda (American Honda Motor Co.) is recalling certain 2003 Honda Accord Coupe vehicles, equipped with a four-cylinder engine.  If the passenger frontal air bag module has been replaced, such as after a crash necessitating frontal air bag deployment, the replacement air bag module may include a Takata air bag inflator.  These inflators may rupture due to propellant degradation occurring after long-term exposure to lower absolute humidity, temperature and temperature cycling.",
+        "consequence": "An inflator rupture may result in metal fragments striking the driver or other occupants resulting in serious injury or death.",
+        "remedy": "Honda will notify owners, and dealers will inspect the vehicle and replace any Takata inflator used in the passenger frontal air bag module, free of charge.  The recall is expected to begin May 1, 2017.  Owners may contact Honda customer service at 1-888-234-2138.  Honda's number for this recall is KF0.",
+        "manufacturer": "Honda (American Honda Motor Co.)",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "15V370000",
+        "reportReceivedDate": "15/06/2015",
+        "reportReceivedDateIso": "2015-06-15",
+        "component": "AIR BAGS:FRONTAL:PASSENGER SIDE:INFLATOR MODULE",
+        "summary": "Honda (American Honda Motor Co.) is recalling certain model year 2001-2005 Honda Civic vehicles manufactured March 21, 2000, to January 20, 2005, 2001-2004 Honda Civic GX vehicles manufactured June 14, 2000, to August 19, 2004, 2003-2005 Honda Civic Hybrid vehicles manufactured February 24, 2002, to January 18, 2005, 2003-2007 Honda Accord vehicles manufactured February 21, 2002, to August 28, 2007, 2002-2004 Honda CR-V vehicles, 2002-2003 Honda Odyssey vehicles manufactured June 19, 2001, to July 12, 2003, 2003 Acura MDX vehicles manufactured September 19, 2002, to June 19, 2003, 2003 Honda Element vehicles manufactured June 25, 2002, to July 31, 2003, and 2003 Honda Pilot vehicles manufactured November 26, 2001, to August 21, 2003.  The affected vehicles have a passenger side frontal air bag that may be susceptible to moisture intrusion which, over time, could cause the inflator to rupture upon its deployment.",
+        "consequence": "In the event of a crash necessitating deployment of the passenger's frontal air bag, the inflator could rupture with metal fragments striking the passenger seat occupant or other occupants possibly causing serious injury or death.",
+        "remedy": "Honda will notify owners, and dealers will replace the passenger air bag inflator, free of charge.  The recall began on July 1, 2015.  Owners may contact Honda customer service at 1-888-234-2138.  Honda's numbers for this recall are JU4, JU5, JU6, and JU7.  Note: Vehicles that have already received a replacement passenger air bag inflator as part of the recall remedy for an earlier campaign such as 14V353 or 14V700 (Honda recall numbers S95, JH6, JH7, JH8, JH9, JJ0, JJ1, JJ2, JJ6, JM5 and JM6) are not included in this recall.  However, this recall does supersede 13V132 and 14V349.  Note: On December 18, 2015 Honda informed NHTSA of an expansion of this recall to include certain model year 2004 Honda CR-V vehicles in addition to additional model year 2003 CR-V vehicles.",
+        "manufacturer": "Honda (American Honda Motor Co.)",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaActionNumber": "EA15001",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "15V320000",
+        "reportReceivedDate": "28/05/2015",
+        "reportReceivedDateIso": "2015-05-28",
+        "component": "AIR BAGS:FRONTAL:DRIVER SIDE:INFLATOR MODULE",
+        "summary": "Honda (American Honda Motor Co.) is recalling certain model year 2001-2007 Accord, 2001-2005 Civic, 2001-2004 Honda Civic GX, 2003-2005 Honda Civic Hybrid, 2002-2006 CR-V, 2003-2011 Element, 2002-2004 Odyssey, 2003-2008 Pilot, 2006 Ridgeline, 2003 Acura 3.2CL, 2003-2006 Acura MDX, and 2002-2003 Acura 3.2TL vehicles.  The affected vehicles are equipped with a dual-stage driver frontal air bag that may be susceptible to moisture intrusion and other factors, including manufacturing variability that, over time, could cause the inflator to rupture.",
+        "consequence": "In the event of a crash necessitating deployment of the driver's frontal air bag, the inflator could rupture with metal fragments striking the driver or other occupants resulting in serious injury or death.",
+        "remedy": "Honda will notify owners, and dealers will replace the driver frontal air bag inflator, free of charge.  The recall began on July 1, 2015.  Owners may contact Honda customer service at 1-888-234-2138.  Owners may contact Acura customer service at 1-800-382-2238, select option 4.  Note: Vehicles that have had their driver frontal air bag replaced previously as part of a recall remedy prior to September 12, 2014 need to have their air bag replaced under this recall as well.  Vehicles that, on or after September 12, 2014, received a remedy for a prior driver frontal air bag inflator recall already received an inflator of a different design, and therefore are not included in this recall and do not require additional servicing.  Note: This recall fully supersedes recalls 08V-593, 09V-259, 10V-041, 11V-260, 14V-351 and 15V-153.  Honda's numbers for this recall are JQ9, JR0, JR1, JR2, JR3, JR4, JR5, JR6, JR7, and JR8.",
+        "manufacturer": "Honda (American Honda Motor Co.)",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaActionNumber": "EA15001",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "14V700000",
+        "reportReceivedDate": "04/11/2014",
+        "reportReceivedDateIso": "2014-11-04",
+        "component": "AIR BAGS",
+        "summary": "American Honda Motor Co. (Honda) is recalling certain model year 2001-2005 Honda Civic, 2003-2004 Civic CNG and Element, 2002-2005 CR-V, 2002-2004 Odyssey, 2003-2005 Accord, Pilot, Civic Hybrid, and Acura MDX, 2005 Acura RL and 2006 Honda Ridgeline vehicles originally sold, or ever registered, in geographic locations associated with high absolute humidity.  Specifically, vehicles sold, or ever registered, in Alabama, Florida, Georgia, Hawaii, Louisiana, Mississippi, South Carolina, Texas, Puerto Rico, U.S. Virgin Islands, Saipan, Guam, and American Samoa are addressed by this recall.  Upon deployment of the passenger side frontal air bag, excessive internal pressure may cause the inflator to rupture.",
+        "consequence": "In the event of a crash necessitating deployment of the passengers frontal air bag, the inflator could rupture with metal fragments striking the vehicle occupants potentially resulting in serious injury or death.",
+        "remedy": "Honda will notify owners, and dealers will replace the passenger side air bag inflator, free of charge.  The recall began January 26, 2015.  Owners may contact Honda customer service at 1-800-999-1009.",
+        "manufacturer": "Honda (American Honda Motor Co.)",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaActionNumber": "PE14016",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "14V353000",
+        "reportReceivedDate": "20/06/2014",
+        "reportReceivedDateIso": "2014-06-20",
+        "component": "AIR BAGS",
+        "summary": "American Honda Motor Company, Inc.'s (Honda) is conducting a limited regional recall for certain model year 2003-2005 Accord, Civic, CR-V, Pilot and Acura MDX, model year 2003-2004 Odyssey and Element, and model year 2005 Acura RL, and 2006 Honda Ridgeline vehicles originally sold, or ever registered in California, and equipped with Takata-brand air bag inflators.  Upon deployment of the passenger side frontal air bag, excessive internal pressure may cause the inflator to rupture.",
+        "consequence": "In the event of a crash necessitating deployment of the passengers frontal air bag, the inflator could rupture with metal fragments striking the vehicle occupants potentially resulting in serious injury or death.",
+        "remedy": "Honda will notify owners, and dealers will replace the inflators in all affected vehicles, free of charge.  The recall is expected to begin during August 2014.  Owners may contact Honda customer service at 1-800-999-1009.",
+        "manufacturer": "Honda (American Honda Motor Co.)",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "12V222000",
+        "reportReceivedDate": "17/05/2012",
+        "reportReceivedDateIso": "2012-05-17",
+        "component": "STEERING:HYDRAULIC POWER ASSIST:HOSE, PIPING, AND CONNECTIONS",
+        "summary": "Honda is recalling certain model year 2007 and 2008 Acura TL and model year 2003-2007 Accord V6 vehicles.  In May 2012, Honda filed a defect report to recall certain model year 2007 and 2008 Acura TL vehicles.  In September 2012, Honda informed the agency that it was including an additional 573,147 vehicles including certain model year 2003 through 2007 Accord V6 vehicles.  The total number of vehicles being recalled is now 625,762.  Prolonged under-hood and power steering fluid temperatures may cause the power steering hose to deteriorate prematurely, resulting in cracks and power steering fluid leakage.",
+        "consequence": "If this occurs, power steering fluid can leak onto a hot catalytic converter, leading to smoke and possibly an under-hood fire.",
+        "remedy": "Honda will notify owners, and dealers will install a new heat resistant power steering hose, free of charge.  The original recall began in June 2012, and owners of those vehicles may obtain the free remedy.  Sufficient parts are not yet available for owners of the vehicles covered by the September 2012 expansion, but are expected to be available in early 2013.  Honda will notify owners of these vehicles beginning on October 26, 2012, and will notify these owners again when parts are available so those vehicles can be brought to dealers for applications of the free remedy.  Owners may contact Honda customer service at 1-800-999-1009.",
+        "manufacturer": "HONDA (AMERICAN HONDA MOTOR CO.)",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "10V364000",
+        "reportReceivedDate": "05/08/2010",
+        "reportReceivedDateIso": "2010-08-05",
+        "component": "ELECTRICAL SYSTEM:IGNITION",
+        "summary": "HONDA IS RECALLING CERTAIN MODEL YEAR 2003 HONDA ACCORD, CIVIC TWO AND FOUR DOOR, AND MODEL YEAR 2003-2004 HONDA ELEMENT VEHICLES.  THE INTERLOCK LEVER OF THE IGNITION SWITCH MAY UNEXPECTEDLY DEFORM, WHICH CAN ALLOW THE INTERLOCK FUNCTION OF A VEHICLE WITH AN AUTOMATIC TRANSMISSION TO BE DEFEATED.",
+        "consequence": "REMOVAL OF THE IGNITION KEY WHEN THE GEAR SELECTOR OF A VEHICLE WITH AN AUTOMATIC TRANSMISSION HAS NOT BEEN SHIFTED TO THE PARK POSITION CAN ALLOW THE VEHICLE TO ROLL AWAY, INCREASING THE RISK OF A CRASH.",
+        "remedy": "DEALERS WILL REMOVE THE ORIGINAL INTERLOCK PIN AND LEVER WITHIN THE IGNITION SWITCH, AND REPLACE THEM WITH NEW, DESIGNED COMPONENTS.  THIS SERVICE WILL BE PERFORMED FREE OF CHARGE.  THE SAFETY RECALL BEGAN ON OCTOBER 7, 2010.  OWNERS MAY CONTACT HONDA AT 1-800-999-1009.",
+        "manufacturer": "HONDA (AMERICAN HONDA MOTOR CO.)",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaActionNumber": "RQ08006",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "09E025000",
+        "reportReceivedDate": "11/05/2009",
+        "reportReceivedDateIso": "2009-05-11",
+        "component": "EXTERIOR LIGHTING:HEADLIGHTS",
+        "summary": "DOPE, INC. IS RECALLING 42,540 COMBINATION CORNER AND BUMPER LAMP ASSEMBLIES OF VARIOUS PART NUMBERS SOLD FOR USE AS AFTERMARKET EQUIPMENT FOR VARIOUS PASSENGER VEHICLES.  THESE HEADLAMPS FAIL TO CONFORM TO THE REQUIREMENTS OF FEDERAL MOTOR VEHICLE SAFETY STANDARD NO. 108, \"LAMPS, REFLECTIVE DEVICES, AND ASSOCIATED EQUIPMENT.\"  THESE LAMPS DO NOT CONTAIN THE REQUIRED AMBER SIDE REFLECTORS.",
+        "consequence": "DECREASED LIGHTING VISIBILITY MAY RESULT IN A VEHICLE CRASH.",
+        "remedy": "DOPE, INC. WILL NOTIFY OWNERS AND OFFER A FULL REFUND FOR THE NONCOMPLIANT COMBINATION LAMPS.  THE SAFETY RECALL BEGAN ON JULY 28, 2009.  OWNERS MAY CONTACT DOPE, INC. AT 1-626-272-1798.",
+        "manufacturer": "DOPE, INC.",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "09E012000",
+        "reportReceivedDate": "07/04/2009",
+        "reportReceivedDateIso": "2009-04-07",
+        "component": "EXTERIOR LIGHTING",
+        "summary": "SABERSPORT IS RECALLING 16,270 COMBINATION CORNER AND BUMPER LAMP ASSEMBLIES OF VARIOUS PART NUMBERS SOLD FOR USE AS AFTERMARKET EQUIPMENT FOR VARIOUS PASSENGER VEHICLES.  THESE HEADLAMPS FAIL TO CONFORM TO THE REQUIREMENTS OF FEDERAL MOTOR VEHICLE SAFETY STANDARD NO. 108, \"LAMPS, REFLECTIVE DEVICES, AND ASSOCIATED EQUIPMENT.\"  THESE LAMPS DO NOT CONTAIN THE REQUIRED AMBER SIDE REFLECTORS.",
+        "consequence": "DECREASED LIGHTING VISIBILITY MAY RESULT IN A VEHICLE CRASH.",
+        "remedy": "SABERSPORT WILL NOTIFY OWNERS AND OFFER A FULL REFUND FOR THE NONCOMPLIANT COMBINATION LAMPS.  THE SAFETY RECALL BEGAN ON MAY 11, 2009.  OWNERS MAY CONTACT SABERSPORT AT 1-909-598-7589.",
+        "manufacturer": "SABERSPORT",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "08E050000",
+        "reportReceivedDate": "11/08/2008",
+        "reportReceivedDateIso": "2008-08-11",
+        "component": "EXTERIOR LIGHTING:HEADLIGHTS",
+        "summary": "K2 MOTOR IS RECALLING 1,921 AFTERMARKET HEADLAMPS OF VARIOUS MODELS SOLD FOR USE ON THE ABOVE LISTED VEHICLES.  THESE HEADLAMPS ARE MISSING THE AMBER SIDE REFLEX REFLECTOR WHICH FAILS TO CONFORM WITH THE REQUIREMENTS OF FEDERAL MOTOR VEHICLE SAFETY STANDARD NO. 108, \"LAMPS, REFLECTIVE DEVICES, AND ASSOCIATED EQUIPMENT.\"",
+        "consequence": "WITHOUT THE AMBER SIDE REFLEX REFLECTORS, THE LIGHTING VISIBILITY MAY BE AFFECTED, POSSIBLY RESULTING IN A VEHICLE CRASH.",
+        "remedy": "K2 MOTOR WILL NOTIFY OWNERS AND OFFER A FULL REFUND.  THE RECALL BEGAN ON DECEMEBER 17, 2008.  OWNERS MAY CONTACT K2 MOTOR AT 1-909-839-2992.",
+        "manufacturer": "K2 MOTOR CORPORATION",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "08V169000",
+        "reportReceivedDate": "11/04/2008",
+        "reportReceivedDateIso": "2008-04-11",
+        "component": "VISIBILITY:WINDSHIELD WIPER/WASHER:MOTOR",
+        "summary": "HONDA IS RECALLING 351,000 MY 2003 ACCORD VEHICLES.  IF WATER ENTERS THE WINDSHIELD WIPER MOTOR BREATHER PORT, WHICH IS DESIGNED TO ALLOW THE MOTOR TO VENT WARM AIR DURING NORMAL OPERATION, IT CAN RESULT IN CORROSION INSIDE THE MOTOR HOUSING.  THIS  CAN CAUSE A FAILURE OF THE ELECTRICAL CIRCUIT BREAKER INSIDE THE MOTOR HOUSING.",
+        "consequence": "IF THE CIRCUIT BREAKER FAILS, IT WILL CAUSE THE WINDSHIELD WIPER MOTOR TO BECOME INOPERATIVE, WHICH CAN INCREASE THE LIKELIHOOD OF A CRASH IN CERTAIN CONDITIONS.",
+        "remedy": "DEALERS WILL INSPECT THE WINDSHIELD WIPER MOTOR FOR SIGNS OF CORROSION.  IF NO SIGNS OF CORROSION ARE PRESENT, A COVER WILL BE INSTALLED OVER THE WIPER MOTOR TO PREVENT WATER FROM ENTERING THE WIPER MOTOR HOUSING.  IF SIGNS OF CORROSION DAMAGE ARE OBSERVED ON THE WIPER MOTOR, THE MOTOR WILL BE REPLACED.  THE RECALL BEGAN ON JULY 17, 2008.   OWNERS MAY CONTACT HONDA AT 1-800-999-1009.",
+        "manufacturer": "HONDA (AMERICAN HONDA MOTOR CO.)",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaActionNumber": "PE07060",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "07E031000",
+        "reportReceivedDate": "17/05/2007",
+        "reportReceivedDateIso": "2007-05-17",
+        "component": "EXTERIOR LIGHTING:HEADLIGHTS",
+        "summary": "CERTAIN MAXZONE HEADLIGHT ASSEMBLIES, DEPO BRAND, P/NOS. 317-1131L-AS, 317-1131R-AS, 317-1131L-US, AND 317-1131R-US, SOLD FOR USE AS AFTERMARKET EQUIPMENT FOR THE ABOVE LISTED PASSENGER VEHICLES.  DURING PRODUCTION A SLIGHT DISTORTION OF THE BEZEL CHANGED THE LUMINOUS INTENSITY OF THE TURN SIGNAL.  THESE HEADLAMPS FAIL TO CONFORM TO THE REQUIREMENTS OF FEDERAL MOTOR VEHICLE SAFETY STANDARD NO. 108, LAMPS, REFLECTIVE DEVICES, AND ASSOCIATED EQUIPMENT.",
+        "consequence": "DECREASED LIGHTING VISIBILITY MAY RESULT IN A VEHICLE CRASH.",
+        "remedy": "MAXZONE WILL NOTIFY OWNERS AND OFFER REIMBURSEMENT FOR ANY NONCOMPLIANT HEADLIGHTS.  THE RECALL BEGAN ON MAY 17, 2007.  OWNERS MAY CONTACT MAXZONE AT 909-822-3288.",
+        "manufacturer": "MAXZONE AUTO PARTS CORPORATION",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "07E004000",
+        "reportReceivedDate": "16/01/2007",
+        "reportReceivedDateIso": "2007-01-16",
+        "component": "EXTERIOR LIGHTING:HEADLIGHTS",
+        "summary": "CERTAIN TYC HEADLAMP ASSEMBLIES P/NS 20-6361-00 AND 20-6362-00 SOLD AS AFTERMARKET EQUIPMENT FOR 2003-2006 HONDA ACCORD PASSENGER VEHICLES.  THE PHOTMETRIC WERE MISALIGNED WHICH DOES NOT COMPLY WITH FEDERAL MOTOR VEHICLE SAFETY STANDARD NO. 108, LAMPS, REFLECTIVE DEVICES, AND ASSOCIATED EQUIPMENT.",
+        "consequence": "MISALIGNMENT OF THE LIGHTS DEMINISHES FRONTAL ILLUMINATION WHICH COULD RESULT IN A VEHICLE CRASH.",
+        "remedy": "GENERA WILL NOTIFY OWNERS AND OFFER TO REPURCHASE THE NONCOMPLIANT LAMPS.  THE RECALL BEGAN ON JANUARY 26, 2007.  OWNERS CAN CONTACT GENERA AT 714-522-6688.",
+        "manufacturer": "GENERA CORPORATION",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "06E064000",
+        "reportReceivedDate": "17/07/2006",
+        "reportReceivedDateIso": "2006-07-17",
+        "component": "EXTERIOR LIGHTING",
+        "summary": "CERTAIN TRADESONIC COMBINATION LAMPS SOLD AS REPLACEMENT LAMPS FOR USE ON THE ABOVE LISTED PASSENGER VEHICLES.  COMBINATION LAMPS NOT EQUIPPED WITH AMBER SIDE REFLECTORS FAIL TO CONFORM WITH THE REQUIREMENTS OF FEDERAL MOTOR VEHICLE SAFETY STANDARD NO. 108, LAMPS, REFLECTIVE DEVICES, AND ASSOCIATED EQUIPMENT.",
+        "consequence": "LACK OF AMBER SIDE REFLECTORS IN THE LAMPS WILL DECREASE LIGHTING VISIBILITY TO OTHER DRIVERS AND MAY POSSIBLY RESULT IN A VEHICLE CRASH.",
+        "remedy": "TRADESONIC WILL NOTIFY OWNERS AND REPLACE THE LAMPS FREE OF CHARGE.  THE RECALL IS EXPECTED TO BEGIN DURING JULY 2006.  OWNERS MAY CONTACT TRADESONIC AT 626-934-8884.",
+        "manufacturer": "TRADESONIC",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "06E038000",
+        "reportReceivedDate": "08/05/2006",
+        "reportReceivedDateIso": "2006-05-08",
+        "component": "EXTERIOR LIGHTING",
+        "summary": "CERTAIN ALFAOTTO COMBINATION HEADLAMPS SOLD AS REPLACEMENT LAMPS FOR USE ON THE ABOVE LISTED PASSENGER VEHICLES.  SOME COMBINATION LAMPS THAT ARE NOT EQUIPPED WITH AMBER SIDE REFLECTORS FAIL TO CONFORM TO FEDERAL MOTOR VEHICLE SAFETY STANDARD NO. 108, LAMPS, REFLECTIVE DEVICES, AND ASSOCIATED EQUIPMENT.",
+        "consequence": "WITHOUT THE AMBER REFLECTORS, THE VEHICLE WILL BE POORLY ILLUMINATED, POSSIBLY RESULTING IN A VEHICLE CRASH WITHOUT WARNING.",
+        "remedy": "ALFAOTTO WILL NOTIFY OWNERS AND REPLACE THE HEADLAMPS FREE OF CHARGE.  THE RECALL BEGAN ON MAY 10, 2006.  OWNERS MAY CONTACT ALFAOTTO AT 626-656-2992 OR VISIT THEIR WEBSITE AT WWW.ALFAOTTO.COM.",
+        "manufacturer": "ALFAOTTO AUTO ACCESSORIES",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "06E032000",
+        "reportReceivedDate": "18/04/2006",
+        "reportReceivedDateIso": "2006-04-18",
+        "component": "EXTERIOR LIGHTING",
+        "summary": "CERTAIN EAGLE EYES AND SONAR HEADLIGHTS AND CORNER LIGHTS SOLD AS AFTERMARKET FOR USE ON 1988-2005 HONDA CIVIC, 1990-2005 HONDA ACCORD, AND 1990-2001 ACURA INTEGRA PASSENGER VEHICLES LISTED ABOVE.   HEADLIGHTS AND CORNER LIGHTS THAT ARE NOT EQUIPPED WITH AMBER SIDE REFLECTORS FAIL TO CONFORM TO FEDERAL MOTOR VEHICLE SAFETY STANDARD NO. 108, LAMPS, REFLECTIVE DEVICES, AND ASSOCIATED EQUIPMENT.",
+        "consequence": "WITHOUT THE AMBER REFLECTORS, THE VEHICLE WILL BE POORLY ILLUMINATED, POSSIBLY RESULTING IN A VEHICLE CRASH WITHOUT WARNING.",
+        "remedy": "TOM MOTORSPORT WILL NOTIFY OWNERS AND OFFER REIMBURSEMENT FOR THE PURCHASE OF NONCOMPLIANT LIGHTS.  THE RECALL BEGAN APRIL 17, 2006.  OWNERS MAY CONTACT TOM MOTORSPORT AT 626-968-4007.",
+        "manufacturer": "TOM MOTORSPORT, INC.",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "06E025000",
+        "reportReceivedDate": "21/03/2006",
+        "reportReceivedDateIso": "2006-03-21",
+        "component": "EXTERIOR LIGHTING:HEADLIGHTS",
+        "summary": "CERTAIN POLI-AUTO COMBINATION HEADLAMP ASSEMBLIES, P/NOS. 11-728, 11-728D, 11-710, 11-419, 11-713, 11-703, 11-704, 11-708P, 11-735, 11-725, 11-726, 11-716 (P&C), 11-721-1, 11-733, 11-729, 11-730, AND 11-732, SOLD AS REPLACEMENT LAMPS FOR USE ON CERTAIN PASSENGER VEHICLES.  SOME COMBINATION LAMPS THAT ARE NOT EQUIPPED WITH AMBER SIDE REFLECTORS FAIL TO CONFORM TO FEDERAL MOTOR VEHICLE SAFETY STANDARD NO. 108, \"LAMPS, REFLECTIVE DEVICES, AND ASSOCIATED EQUIPMENT.\"",
+        "consequence": "WITHOUT THE AMBER REFLECTORS, THE VEHICLE WILL BE POORLY ILLUMINATED, POSSIBLY RESULTING IN A VEHICLE CRASH WITHOUT WARNING.",
+        "remedy": "POLI-AUTO WILL NOTIFY OWNERS AND OFFER TO REPURCHASE THE HEADLAMPS AT ITS ORIGINAL PURCHASE PRICE.  THE RECALL IS EXPECTED TO BEGIN DURING APRIL 2006.  OWNERS MAY CONTACT POLI-AUTO AT 305-477-1356.",
+        "manufacturer": "POLI-AUTO, INC.",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "06E023000",
+        "reportReceivedDate": "13/03/2006",
+        "reportReceivedDateIso": "2006-03-13",
+        "component": "EXTERIOR LIGHTING:HEADLIGHTS",
+        "summary": "CERTAIN ANZO COMBINATION HEADLAMP ASSEMBLIES SOLD AS REPLACEMENT LAMPS FOR USE ON CERTAIN PASSENGER VEHICLES.  SOME COMBINATION LAMPS ARE NOT EQUIPPED WITH AMBER SIDE REFLECTORS WHICH FAIL TO CONFORM TO FEDERAL MOTOR VEHICLE SAFETY STANDARD NO. 108, \"LAMPS, REFLECTIVE DEVICES, AND ASSOCIATED EQUIPMENT.\"",
+        "consequence": "WITHOUT THE AMBER REFLECTORS, THE VEHICLE WILL BE POORLY ILLUMINATED, POSSIBLY RESULTING IN A VEHICLE CRASH.",
+        "remedy": "ANZO WILL NOTIFY OWNERS AND REPLACE THE HEADLAMPS FREE OF CHARGE.  THE RECALL BEGAN MAY 9, 2006.  OWNERS MAY CONTACT ANZO USA AT 909-468-3688.",
+        "manufacturer": "ANZO USA, INC.",
+        "nhtsaModel": "ACCORD"
+      },
+      {
+        "campaignNumber": "04V176000",
+        "reportReceivedDate": "15/04/2004",
+        "reportReceivedDateIso": "2004-04-15",
+        "component": "POWER TRAIN:AUTOMATIC TRANSMISSION",
+        "summary": "ON SOME MINI VANS, SPORT UTILITY AND PASSENGER VEHICLES, CERTAIN OPERATING CONDITIONS CAN RESULT IN HEAT BUILD-UP BETWEEN THE COUNTERSHAFT AND SECONDARY SHAFT SECOND GEARS IN THE AUTOMATIC TRANSMISSION, EVENTUALLY LEADING TO GEAR TOOTH CHIPPING OR GEAR BREAKAGE.",
+        "consequence": "GEAR FAILURE COULD RESULT IN TRANSMISSION LOCKUP, WHICH COULD RESULT IN A CRASH.",
+        "remedy": "ON VEHICLES WITH 15,000 MILES OR LESS, THE DEALER WILL UPDATE THE TRANSMISSION WITH A SIMPLE REVISION TO THE OIL COOLER RETURN LINE TO INCREASE LUBRICATION TO THE SECOND GEAR.  ON VEHICLES WITH MORE THAN 15,000 MILES, THE DEALER WILL INSPECT THE TRANSMISSION TO IDENTIFY GEARS THAT HAVE ALREADY EXPERIENCED DISCOLORATION DUE TO OVERHEATING.   IF DISCOLORATION EXISTS, THE TRANSMISSION WILL BE REPLACED   IF DISCOLORATION IS NOT PRESENT, THE DEALER WILL PERFORM THE REVISION TO THE OIL COOLER RETURN LINE.  THE RECALL BEGAN ON APRIL 21, 2004, FOR PILOT, ODYSSEY, AND MDX OWNERS.    OWNERS OF THE ACCORD VEHICLES WILL  START RECEIVING LETTERS ON JUNE 28, 2004, AND ON JUNE 29, 2004, FOR OWNERS OF THE TL AND CL VEHICLES.  OWNERS SHOULD CONTACT HONDA AT 1-800-999-1009 OR ACURA AT 1-800-382-2238.",
+        "manufacturer": "HONDA (AMERICAN HONDA MOTOR CO.)",
+        "parkIt": false,
+        "parkOutside": false,
+        "overTheAirUpdate": false,
+        "nhtsaModel": "ACCORD"
+      }
+    ],
+    "note": "These are recalls NHTSA lists for this model year/make/model, NOT confirmed open on this specific vehicle. NHTSA has no public no-auth VIN-specific open-recall API. Check nhtsa.gov/recalls with the VIN or the dealer to confirm if it is open on this specific vehicle.",
+    "vin": "1HGCM82633A004352"
+  },
+  "complaints": {
+    "request": {
+      "name": "list_complaints",
+      "arguments": {
+        "vin": "1HGCM82633A004352",
+        "top": 5
+      }
+    },
+    "isError": false,
+    "result": {
+      "vehicle": {
+        "year": 2003,
+        "make": "HONDA",
+        "model": "Accord"
+      },
+      "source": "https://api.nhtsa.gov/complaints/complaintsByVehicle",
+      "queries": [
+        {
+          "model": "Accord",
+          "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=HONDA&model=Accord&modelYear=2003",
+          "httpStatus": 200,
+          "count": 2013
+        }
+      ],
+      "count": 2013,
+      "crashes": 158,
+      "fires": 19,
+      "injuries": 157,
+      "deaths": 1,
+      "topComponents": [
+        {
+          "component": "POWER TRAIN",
+          "count": 926
+        },
+        {
+          "component": "AIR BAGS",
+          "count": 324
+        },
+        {
+          "component": "SERVICE BRAKES, HYDRAULIC",
+          "count": 146
+        },
+        {
+          "component": "ELECTRICAL SYSTEM",
+          "count": 143
+        },
+        {
+          "component": "ENGINE AND ENGINE COOLING",
+          "count": 95
+        }
+      ],
+      "note": "Owner complaints filed with NHTSA for this model year/make/model (deduplicated by ODI number). Complaints are unverified owner reports, not recalls or confirmed defects; one complaint can list several components."
+    }
+  }
+}
